@@ -1,0 +1,343 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.font-cormorant {
+    font-family: 'Cormorant', serif;
+}
+/* header part */
+.navbar-brand {
+   /* visibility: hidden; */
+}
+.text-purple {
+    color: #571845;
+}
+.font-uppercase {
+    text-transform: uppercase;
+}
+#header {
+    background-color: #571845;
+}
+#header nav {
+    margin: 0 auto; 
+}
+.nav-height {
+    min-height: 90px;
+}
+#basic-navbar-nav .custom-navbar .nav-item a.nav-link {
+    color: white !important;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.custom-user-circle span , span.custom-language span {
+    color: white;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;    
+}
+span.custom-user-circle, span.custom-Search, span.custom-language {
+   font-size: 18px;
+}
+.vendors-item, .photos-item, .wedding-item, .blogs-item, .programs-item {
+    position: unset;
+}
+
+@media (min-width: 1280px) {
+    #header nav {
+        max-width: 92vw;
+        margin: 0 auto;
+    }      
+}
+@media (min-width: 992px)  and (max-width: 1279px) {
+    #header nav {
+        width: auto;
+    }
+    #basic-navbar-nav .custom-navbar .nav-item a.nav-link {
+        color: white !important;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }      
+    .custom-user-circle span , span.custom-language span {
+        display: none;   
+    }        
+}
+@media (min-width: 992px) {
+    .vendors-item .dropdown-menu, .photos-item .dropdown-menu, .wedding-item .dropdown-menu,.blogs-item .dropdown-menu, .programs-item .dropdown-menu {
+        position: absolute;
+        max-width: 800px;
+        margin: 0 auto;
+        top: 90px;
+        left: 0;
+        right: 0;
+        border-radius: 0px;
+        transition: top .15s ease-out;
+    } 
+    .wrap {
+        max-width: 93vw;
+        width: 90vw;
+        margin: 0 auto;
+    }  
+}
+@media (max-width: 991px) {
+    .custom-items-align {
+        color: white;
+        position: relative;
+        text-align: center;
+        padding: 100px 15px;
+    }
+    .second-section-vendor-card {
+        min-height: 350px;
+    }
+}
+/* header part end */
+
+/*Home page */
+.heroimg {
+    background-image: url(/img/hero.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.home-dropdown select {
+    height: 50px;
+    border-radius: 0px;
+    color: #571845;
+    font-size: 14px;
+}
+.btn-home {
+    height: 50px;
+    background-color: #571845;
+    border: 0px;
+    border-radius: 0px;
+}
+.font-cormorant {
+    font-size: 20px;
+}
+.second-section-vendor-card {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-position: center;
+    border: 0px;
+    object-position: center;
+    background-size: cover;
+}
+.wedding-venues {
+    background-image: url(/img/wedding-venues.png);
+}
+.wedding-photography {
+    background-image: url(/img/weddingPhotography.png);
+}
+.bridal-makeup {
+    background-image: url(/img/BridalMakeupPhoto.png);
+}
+.wedding-decorators {
+    background-image: url(/img/weddingDecorators.png);
+}
+.bridal-wear {
+    background-image: url(/img/BridalWear.png);
+}
+.wedding-cards {
+    background-image: url(/img/WeddingCards.png);
+}
+.vendor a.btn {
+    left: 0;
+    position: absolute;
+    background: white;
+    bottom: 26px;
+    border: 0;
+    border-radius: 0;
+    padding: 25px 60px;
+    width: 250px;
+    box-shadow: 6px 0px 11px rgba(88,88,88,0.3);
+    font-family: 'Cormorant', serif;
+    color: #571845;
+}
+.vendor a.btn:hover {
+    box-shadow: 6px 0px 11px rgba(88,88,88,0.7);
+}
+.vendor .card {
+    border: 0px;
+    border-radius: 0px;
+}
+.vendor .card:hover {
+    box-shadow: 6px 0px 11px rgba(88,88,88,0.3);
+    cursor: pointer;
+
+}
+.browseAllVendors {
+    background-color: #571845;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 0px;
+}
+.browseAllVendors:hover {
+    box-shadow: 6px 0px 11px rgba(88,88,88,0.3);
+    color: #571845;
+    background-color: #C68DA2;
+}
+.hireServices .card {
+    border: 0px;
+    border-radius: 0px;
+    min-height: 500px;
+}
+.hireServices .card-body {
+    display: flex;
+    align-self: flex-end;
+    margin: 0 auto;
+}
+.hireServices .card-body .btn {
+    border: 0;
+    background: white;
+    border-radius: 0;
+    padding: 25px 60px;
+    width: 250px;
+    align-self: flex-end;
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    margin: 0 auto;
+}
+.grid-bg , .bg-lightPink {
+    background-color: #C68DA2;
+}
+.VOVBS {
+    background-color: #900C3E;
+}
+.VOVBS .card {
+    max-width: 350px;
+    min-height: 350px;
+    border-radius: 0px;
+    margin: 0 auto;
+}
+.VOVBS .card img {
+    width: 60px;
+    align-self: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.VOVBS h3 {
+    color: #571845;
+}
+.cardIconFix {
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+} 
+.follow-us a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #571845;
+    font-size: 25px;
+}
+.follow-us span {
+    color: #571845;
+    font-size: 25px;
+}
+.GWOUS img {
+    max-width: 400px;
+}
+.Section7 .custom-input , .GWOUS .custom-input {
+    height: 50px;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 13px;
+    padding: 5px 25px;
+}
+.bg-light-GWOUS {
+    background-color: #ffd8cf;
+}
+.bg-dark-GWOUS {
+    background-color: #f7b4a4;
+}
+
+@media (min-width: 992px) {
+    .custom-items-align {
+        color: white;
+        position: relative;
+        text-align: center;
+        padding: 250px 0;
+    }
+    h1.home-title {
+        font-size: 56px;
+    }
+    .second-section-vendor-card {
+        min-height: 290px;
+    }
+    .ImageMoreHeight {
+        height: 550px;
+        object-fit: cover;
+        width: 100%;
+        object-position: center;
+    }
+    .ImageLessHeight {
+        height: 250px;
+        object-fit: cover;
+        width: 100%;
+        object-position: center;
+    }
+    .custom-grid-size {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .custom-grid-size > .row > .col-lg-4:nth-child(1) {
+        padding-left: 15px;
+        padding-right: 6px;
+    }
+    .custom-grid-size > .row > .col-lg-4:nth-child(2) {
+        padding-left: 6px;
+        padding-right: 6px;
+    }   
+    .custom-grid-size > .row > .col-lg-4:nth-child(3) {
+        padding-left: 6px;
+        padding-right: 15px;
+    }
+    .custom-grid-size > .row > .col-lg-8 {
+        padding-left: 15px;
+        padding-right: 6px;
+    }
+    .custom-grid-size > .row > .col-lg-4 {
+        padding-left: 6px;
+        padding-right: 15px;
+    }   
+    .VOVBS {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+/*Footer*/
+.bg-dark-purple {
+    background-color: #571845;
+}
+.bg-dark-purple ul li {
+    list-style: none;
+    list-style: none;
+    font-size: 13px;
+    margin: 15px 15px;
+    letter-spacing: 0.7px;
+    font-weight: 600;
+}
+.bg-dark-purple ul li a {
+    color: white;
+}
+
+#footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
