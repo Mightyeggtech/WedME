@@ -2,7 +2,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem !important;
+    letter-spacing: 3px;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem !important;
+    letter-spacing: 1px;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.font-montserrat {
+    font-family: 'Montserrat', serif;
+}
 .font-cormorant {
     font-family: 'Cormorant', serif;
 }
@@ -18,6 +34,12 @@ body {
 }
 #header {
     background-color: #571845;
+}
+.paT-80 {
+    padding-top: 80px;
+}
+.paB-80 {
+    padding-bottom: 80px;
 }
 #header nav {
     margin: 0 auto; 
@@ -47,7 +69,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
    font-size: 18px;
 }
 .vendors-item, .photos-item, .wedding-item, .blogs-item, .programs-item {
-    position: unset;
+    position: static !important;
 }
 
 @media (min-width: 1280px) {
@@ -75,13 +97,13 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 @media (min-width: 992px) {
     .vendors-item .dropdown-menu, .photos-item .dropdown-menu, .wedding-item .dropdown-menu,.blogs-item .dropdown-menu, .programs-item .dropdown-menu {
-        position: absolute;
-        max-width: 800px;
-        margin: 0 auto;
-        top: 90px;
-        left: 0;
-        right: 0;
-        border-radius: 0px;
+        position: absolute !important;
+        max-width: 800px !important;
+        margin: 0 auto !important;
+        top: 105px !important;
+        left: 0 !important;
+        right: 0 !important;
+        border-radius: 0px !important;
         transition: top .15s ease-out;
     } 
     .wrap {
@@ -119,10 +141,11 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     font-size: 14px;
 }
 .btn-home {
-    height: 50px;
-    background-color: #571845;
-    border: 0px;
-    border-radius: 0px;
+    height: 50px !important;
+    background-color: #571845 !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    width: 180px;
 }
 .font-cormorant {
     font-size: 20px;
@@ -179,10 +202,10 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 
 }
 .browseAllVendors {
-    background-color: #571845;
-    color: white;
-    padding: 18px 30px;
-    border-radius: 0px;
+    background-color: #571845 !important;
+    color: white !important;
+    padding: 18px 30px !important;
+    border-radius: 0px !important;
 }
 .browseAllVendors:hover {
     box-shadow: 6px 0px 11px rgba(88,88,88,0.3);
@@ -211,7 +234,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     margin: 0 auto;
 }
 .grid-bg , .bg-lightPink {
-    background-color: #C68DA2;
+    background-color: #e2c0cd;
 }
 .VOVBS {
     background-color: #900C3E;
@@ -244,17 +267,52 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 .follow-us span {
     color: #571845;
-    font-size: 25px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
 }
 .GWOUS img {
     max-width: 400px;
 }
-.Section7 .custom-input , .GWOUS .custom-input {
+.GWOUS .btn-home  {
+    background-color: white !important;
+    color: #571845;
+    font-family: 'Cormorant', serif;
+    max-width: 180px;
+}
+.GWOUS .btn-home:hover {
+    background-color: white !important;
+    color: #571845;
+    font-family: 'Cormorant', serif;
+    box-shadow: 1px 8px 10px rgba(0,0,0,0.1);
+}
+.Section7 .custom-input {
+    height: 48px;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 13px;
+    padding: 5px 25px;
+}
+.GWOUS .custom-input {
     height: 50px;
     border-radius: 0px;
     border: 0px;
     font-size: 13px;
     padding: 5px 25px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+
+}
+.GWOUS .custom-input.form-control::placeholder {
+    color: #571845;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+}
+.GWOUS .custom-input.form-control:focus {
+    background-color: transparent;
+    outline: 0px;
+    box-shadow: none;
+    border-color: #571845;
 }
 .bg-light-GWOUS {
     background-color: #ffd8cf;
@@ -268,7 +326,6 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
         color: white;
         position: relative;
         text-align: center;
-        padding: 250px 0;
     }
     h1.home-title {
         font-size: 56px;
@@ -277,13 +334,13 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
         min-height: 290px;
     }
     .ImageMoreHeight {
-        height: 550px;
+        height: 550px !important;
         object-fit: cover;
         width: 100%;
         object-position: center;
     }
     .ImageLessHeight {
-        height: 250px;
+        height: 250px !important;
         object-fit: cover;
         width: 100%;
         object-position: center;
@@ -340,4 +397,122 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 #footer {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+/* Venue Booking Services  */
+.vbs-heroimg {
+    background-image: url(/img/vbs.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+@media (min-width: 1200px) {
+    .HIW .card-columns {
+        column-count: 4 !important;
+        column-gap: 3rem;
+    }
+}
+@media (max-width: 1199px) and (min-width:992px) {
+    .HIW .card-columns {
+        column-count: 2 !important;
+        column-gap: 3rem;
+    }
+}
+@media (max-width: 991px){
+    .HIW .card-columns {
+        column-count: 1 !important;
+    }
+}
+.HIW .card {
+    background-color: #e2c0cd;
+    border: 0px;
+    border-radius: 0px;
+}
+.HIW .HIW-icons {
+    font-size: 45px;
+    padding-top: 38px;
+    padding-bottom: 25px;
+    color: #571845;
+    /* box-shadow: 0px 3px 6px rgba(0,0,0,16%); */
+}
+.HIW .HIW-icons>img {
+    height: 50px;
+}
+.HIW .card-title {
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    color:
+    white;
+    text-shadow: 0px 3px 6px
+    rgba(0,0,0,20%);
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 195px;
+    min-height: 60px;
+    letter-spacing: 0.6px;
+}
+.vbs-section3 {
+    background-image: url(/img/vbs-section3.png);
+    background-size: contain;
+    height: 450px;
+}
+.carousel-caption {
+    position: relative !important;
+    right: unset !important;
+    bottom: unset !important;
+    left: unset !important;
+    z-index: unset !important;
+    max-width: 700px;
+    margin: 0 auto;
+    min-height: 250px;
+}
+.vbs-section3 .carousel , .section2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.vbs-section3 .carousel-caption h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+.section4 .section4-card-items p {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#571845;
+    font-family: 'Montserrat', serif;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+}
+.section4 .section4-card-icon svg{
+    font-size: 40px;
+    color: #e2c0cd;
+}
+.section4 h2.title {
+    max-width: 600px;
+}
+.section4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ER input.form-control, .ER select.form-control{
+    height: 50px;
+    border-radius: 0px;
+    color:#571845;
+    border-color:#571845;
+    box-shadow: none;
+    font-family: 'Montserrat', serif;
+    font-size: 13px !important;
+    text-transform: capitalize;
+}
+
+.ER .form-check .form-check-label, .ER input.form-control::placeholder, .ER select.form-control::placeholder,  .ER select option::placeholder{
+    font-family: 'Montserrat', serif;
+    font-size: 13px !important;
+    text-transform: capitalize;
+    color:#571845;
 }
