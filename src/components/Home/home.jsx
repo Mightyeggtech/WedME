@@ -13,7 +13,7 @@ function HomeSection (){
             {/* Section 1 (Hero Section) */}
             <Row className="heroimg">  
                 <Col xl ={2} ></Col>
-                <Col lg={12} xl ={8}> 
+                <Col lg={12} xl ={8} className=" align-self-center"> 
                     <div className="custom-items-align ">
                     <h1 className="home-title">OUR . FOREVER . AFTER</h1>
                     <p className="font-cormorant">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>

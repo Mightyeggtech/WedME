@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
@@ -8,21 +8,29 @@ import { Navbar } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import '../css/main.css';
+import Routes from '../../route.jsx';
 import { FiSearch } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
+import Home from '../Home/index';
+import logo from './logo-wedme.png';
+import {
+    BrowserRouter as Router,
+    Link,
+    Route
+  } from 'react-router-dom'
 function TopNavigation () {
         return (
-            <container>
+            <div>
             <Navbar className="nav-height" expand="lg">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand Link to='/'><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto custom-navbar">
                 <NavDropdown title="VENDORS" id="basic-vendors-nav-dropdown" className="vendors-item">
                     <Row className="vendors-content">
                         <Col>
-                            <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
+                            <NavDropdown.Item href="#">1</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">2</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">3</NavDropdown.Item>
                         </Col>
@@ -84,7 +92,7 @@ function TopNavigation () {
                         </Form>                                       
             </Navbar.Collapse>
             </Navbar>
-          </container>
+            </div>
         );
 }
 export default TopNavigation;
