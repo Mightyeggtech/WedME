@@ -20,7 +20,7 @@ import Footer from '../layout/footer.jsx';
 function Home() {
     return (
         <React.Fragment>
-            <div className="wrap">
+            <div className="wrap paB-80">
                 <section id="herosection">
                     <HomeHeroSection/>
                 </section>

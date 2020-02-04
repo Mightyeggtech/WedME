@@ -5,8 +5,9 @@ import Routes from './route';
 import NotFound from './not-found';
 import VenuBookingService from './components/venuebookingservice';
 import TopNavigation from './components/layout/header.jsx';
-import Home from './components/Home/index.jsx';
+import Home from './components/Home/index.jsx'; 
 import Footer from './components/layout/footer.jsx';
+import BottomFooter from './components/layout/bottom-footer.jsx';
 // import VenuBookingService from './components/venuebookingservice.jsx';
 
 import 'jquery/dist/jquery.min.js';
@@ -62,7 +63,10 @@ function App () {
       </Switch>
         <div id="footer" class="container-fluid bg-dark-purple">
           <Footer/>
-        </div>      
+        </div>   
+        <div id="bottom-footer" class="container-fluid">
+          <BottomFooter/>
+        </div>            
       </Router>
     );
   
