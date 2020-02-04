@@ -13,6 +13,8 @@ import PhoneInput from 'react-phone-number-input'
 import { MdPhoneInTalk } from  "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import HomeReadAdviceAndIdeas from './Home/homereadadviceandideas.jsx';
+import ContactUsToGetBestDeal from './contactUsToGetBestDeal'
+import ReadAdviceAndIdeas from './readAdviceAndIdeas.jsx';
 // import React, { Component } from "react";
 function VenuBookingService () {
     return (
@@ -26,7 +28,7 @@ function VenuBookingService () {
                                 <Col xl ={2} ></Col>
                                 <Col lg={12} xl ={8}> 
                                     <div className="custom-items-align ">
-                                        <h1 className="home-title">Venue Booking Service</h1>
+                                        <h1 className="home-title font-montserrat">Venue Booking Service</h1>
                                         <p className="font-cormorant">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                                     </div>
                                 </Col>
@@ -120,40 +122,52 @@ function VenuBookingService () {
                     <Col sm={12}>
                         <Row className="paB-80">
                             <Col xl={4} lg={6}>
-                                <Row className="section4-card-items">
-                                    <Col sm={4} className="d-flex justify-content-end"><span className="section4-card-icon"><FaUserAlt/></span></Col>
-                                    <Col sm={8}><p>Dedicated Venue Expert (on ground)</p></Col>
+                                <Row className="section4-card-items pb-sm-4">
+                                    <Col sm={2}></Col>
+                                    <Col sm={2} className="d-flex section4-justify-content"><span className="section4-card-icon"><FaUserAlt/></span></Col>
+                                    <Col sm={6}><p>Dedicated Venue Expert (on ground)</p></Col>
+                                    <Col sm={2}></Col>
                                 </Row>
                             </Col>
                             <Col xl={4} lg={6}>
-                                <Row className="section4-card-items">
-                                    <Col sm={4} className="d-flex justify-content-end"><span className="section4-card-icon"><FaUserAlt/></span></Col>
-                                    <Col sm={8}><p>Personalised venue suggestions</p></Col>
-                                </Row>                                
+                                <Row className="section4-card-items pb-sm-4">
+                                    <Col sm={2}></Col>
+                                    <Col sm={2} className="d-flex section4-justify-content"><span className="section4-card-icon"><FaUserAlt/></span></Col>
+                                    <Col sm={6}><p>Personalised venue suggestions</p></Col>
+                                    <Col sm={2}></Col>
+                                </Row>                                                              
                             </Col>
                             <Col xl={4} lg={6}>
-                                <Row className="section4-card-items">
-                                    <Col sm={4} className="d-flex justify-content-end"><span className="section4-card-icon"><FaUserAlt/></span></Col>
-                                    <Col sm={8}><p>Confirmed availability of shortlisted venues within 24 hours</p></Col>
-                                </Row>                                
+                                <Row className="section4-card-items pb-sm-4">
+                                    <Col sm={2}></Col>
+                                    <Col sm={2} className="d-flex section4-justify-content"><span className="section4-card-icon"><FaUserAlt/></span></Col>
+                                    <Col sm={6}><p>Confirmed availability of shortlisted venues within 24 hours</p></Col>
+                                    <Col sm={2}></Col>
+                                </Row>                                                              
                             </Col>
                             <Col xl={4} lg={6}>
-                                <Row className="section4-card-items">
-                                    <Col sm={4} className="d-flex justify-content-end"><span className="section4-card-icon"><FaUserAlt/></span></Col>
-                                    <Col sm={8}><p>Guided site visits for up to 5 properties</p></Col>
-                                </Row>                                    
+                                <Row className="section4-card-items pb-sm-4">
+                                    <Col sm={2}></Col>
+                                    <Col sm={2} className="d-flex section4-justify-content"><span className="section4-card-icon"><FaUserAlt/></span></Col>
+                                    <Col sm={6}><p>Guided site visits for up to 5 properties</p></Col>
+                                    <Col sm={2}></Col>
+                                </Row>                                                                  
                             </Col>
                             <Col xl={4} lg={6}>
-                                <Row className="section4-card-items">
-                                    <Col sm={4} className="d-flex justify-content-end"><span className="section4-card-icon"><FaUserAlt/></span></Col>
-                                    <Col sm={8}><p>Negotiated prices for 2 shortlisted venues and best deal (upto 30% off)</p></Col>
-                                </Row>                                    
+                                <Row className="section4-card-items pb-sm-4">
+                                    <Col sm={2}></Col>
+                                    <Col sm={2} className="d-flex section4-justify-content"><span className="section4-card-icon"><FaUserAlt/></span></Col>
+                                    <Col sm={6}><p>Negotiated prices for 2 shortlisted venues and best deal (upto 30% off)</p></Col>
+                                    <Col sm={2}></Col>
+                                </Row>                                                                   
                             </Col>
                             <Col xl={4} lg={6}>
-                                <Row className="section4-card-items">
-                                    <Col sm={4} className="d-flex justify-content-end"><span className="section4-card-icon"><FaUserAlt/></span></Col>
-                                    <Col sm={8}><p>Currently available only in Dhaka</p></Col>
-                                </Row>                                    
+                                <Row className="section4-card-items pb-sm-4">
+                                    <Col sm={2}></Col>
+                                    <Col sm={2} className="d-flex section4-justify-content"><span className="section4-card-icon"><FaUserAlt/></span></Col>
+                                    <Col sm={6}><p>Currently available only in Dhaka</p></Col>
+                                    <Col sm={2}></Col>
+                                </Row>                                                                  
                             </Col>
                         </Row>
                     </Col>
@@ -228,7 +242,16 @@ function VenuBookingService () {
                 </Row>
             </div>
         </div>
-        <HomeReadAdviceAndIdeas/>
+        <div className="container-fluid bg-lightPink">
+            <Row>
+                <Col xl={12}>
+                    <ReadAdviceAndIdeas/>
+                </Col>
+                <Col xl={12}>
+                    <ContactUsToGetBestDeal/>
+                </Col>
+            </Row>
+        </div>
         </React.Fragment>
     );
 }

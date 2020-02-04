@@ -13,8 +13,7 @@ import { FaYoutube } from "react-icons/fa";
 function ReadAdviceAndIdeas() {
     return (
         <Row className="bg-lightPink Section7 paB-80">
-            <Col xl={2}></Col>
-            <Col xl={8}>
+            <Col xl={12}>
             <Row className="paT-80">
                 <Col lg ={12}>
                     <h2 className="font-montserrat text-purple text-center font-uppercase ">Read Advice & Ideas</h2>
@@ -22,9 +21,8 @@ function ReadAdviceAndIdeas() {
                 </Col>  
             </Row>
             </Col>
-            <Col xl={2}></Col>
-            <Col xl={2}></Col>
-            <Col xl={8}>
+            <Col md={3} lg={1} xl={2}></Col>
+            <Col md={6} lg={10} xl={8}>
                 <Form>
                     <Form.Row className="d-flex justify-content-center">
                         <Form.Group  className="col-xl-5">
@@ -48,7 +46,7 @@ function ReadAdviceAndIdeas() {
                     </Col>                        
                 </Row>
             </Col>
-            <Col xl={2}></Col>
+            <Col md={3} lg={1} xl={2}></Col>
         </Row>       
     );
 }

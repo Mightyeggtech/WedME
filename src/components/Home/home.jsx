@@ -6,6 +6,7 @@ import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
+import { Link } from 'react-router';
 
 function HomeSection (){
     return (
@@ -116,7 +117,7 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-venues">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Venues</a>
+                            <a href="/venue-booking-service" class="btn">Venue Booking Services</a>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -135,20 +136,34 @@ function HomeSection (){
                     </Card>
                 </Col>     
             </Row>  
-            <Row>
-                <Col className="grid-bg custom-grid-size">
-                    <Row className="">
-                        <Col lg={4}>
+            <Row className="Grid">
+                <Col className="grid-bg custom-grid-size" sm={12}>
+                    <div className="btn-grid text-center font-cormorant text-white hide-on-mb">
+                        <Row className="d-flex align-items-center">
+                            <Col sm={12} className="">
+                                <p className="p-3">We Love Couples, Their Unique Stories & The Different Ways In Which 
+                                    They Go About Planning For Their Big Day! From Quaint
+                                    Budget Affairs, To Glam Black Tie Events- The 
+                                    Most Inspiring Real Wedding Stories
+                                    From Across Cultures & Cities!</p>
+                            </Col>
+                            <Col sm={12} className="">
+                               <a href="#" className="mt-4 btn">See Wedding</a>
+                            </Col>
+                        </Row>
+                    </div>
+                    <Row className="hide-on-mb">
+                        <Col sm={4} lg={4}>
                             <Row>
                                 <Col lg={12} className="fluid ImageLessHeight"></Col>
                             </Row>
                             <Row>
-                                <Col lg={12}>
+                                <Col lg={12} className="pl-0">
                                     <Image src='/img/BookingSearvicesImages.png'  className="img-fluid  ImageMoreHeight py-2"/>
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={4}>
+                        <Col sm={4} lg={4}>
                         <Row>
                             <Col lg={12}>
                                 <Image src="/img/makeover.png"  className="img-fluid  ImageMoreHeight pb-2"/>
@@ -160,22 +175,39 @@ function HomeSection (){
                             </Col>
                         </Row>
                         </Col>
-                        <Col lg={4}>
+                        <Col sm={4} lg={4}>
                             <Row>
-                                <Col lg={12}><Image src="/img/indian-woman.png"  className="img-fluid ImageLessHeight pb-2"/></Col>
+                                <Col lg={12} className="pr-0"><Image src="/img/indian-woman.png"  className="img-fluid ImageLessHeight pb-2"/></Col>
                             </Row>
                             <Row>
-                                <Col lg={12}><Image src="/img/weddingDecorators.png"  className="img-fluid  ImageMoreHeight py-2"/></Col>
+                                <Col lg={12} className="pr-0"><Image src="/img/weddingDecorators.png"  className="img-fluid  ImageMoreHeight py-2"/></Col>
                             </Row>
                         </Col>
                     </Row>
-                    <Row>
-                       <Col lg={8}>
+                    <Row className="hide-on-mb">
+                       <Col sm={8} lg={8}  className="pl-0">
                            <Image src="/img/weddingPhotography.png"  className="img-fluid ImageLessHeight pt-2"/>
                         </Col>
-                        <Col lg={4} className="fluid ImageLessHeight">
+                        <Col  sm={4} lg={4} className="fluid ImageLessHeight">
                         </Col>                       
                     </Row> 
+                    <Row className="bg-dark-purple hide-on-desktop p-4">
+                        <Col className="mobile-height">
+                            <h2 className="text-white text-center">REAL WEDDING</h2>
+                            <Row className="d-flex align-items-center text-center font-cormorant text-white">
+                                <Col sm={12} className="">
+                                    <p className="p-3">We Love Couples, Their Unique Stories & The Different Ways In Which 
+                                        They Go About Planning For Their Big Day! From Quaint
+                                        Budget Affairs, To Glam Black Tie Events- The 
+                                        Most Inspiring Real Wedding Stories
+                                        From Across Cultures & Cities!</p>
+                                </Col>
+                                <Col sm={12} className="">
+                                <a href="#" className="mt-4 btn">See Wedding</a>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
             <Row className="py-5">
@@ -209,15 +241,15 @@ function HomeSection (){
                     </Card>
                 </Col>                     
             </Row>
-            <Row>
+            <Row className="paB-80">
                 <Col lg ={12} className="d-flex justify-content-center">
                     <a href="#" className="btn browseAllVendors my-3">READ THE BLOG</a>
                 </Col>
             </Row>
             {/* View Our Venue Booking Service */}
-            <Row className="VOVBS py-5">
+            <Row className="VOVBS paT-80 paB-80">
                 <Col lg={12}>
-                    <Row className="py-5">
+                    <Row className="pb-5">
                     <Col lg ={2} ></Col>
                     <Col lg ={8}>
                         <h1 className="text-center text-white font-uppercase">Read Advice & Ideas</h1>
