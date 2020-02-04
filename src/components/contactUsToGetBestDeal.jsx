@@ -13,7 +13,7 @@ function  ContactUsToGetBestDeal () {
                 <Image src="/img/GWOUS.png" className="img-fluid"/>
             </Col>
             <Col xl={7} className="bg-dark-GWOUS d-flex align-items-center">
-                <Row className="">
+                <Row className="  paT-80 paB-80">
                     <Col xl={12} className="text-center"><h3 className="text-purple">Get Wedme On Your Smartphone</h3></Col>
                     <Col xl={12} className="text-center"><p className="font-cormorant text-purple">You Will Receive An SMS With A Link To Download The Wedmegood App For Free</p></Col>
                     <Col xl={12} className="">

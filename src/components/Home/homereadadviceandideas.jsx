@@ -7,7 +7,7 @@ import ContactUsToGetBestDeal from '../contactUsToGetBestDeal'
 import ReadAdviceAndIdeas from '../readAdviceAndIdeas.jsx';
 function HomeReadAdviceAndIdeas () {
     return (
-        <div className="container-fluid">
+        <div className="bg-lightPink">
             <Row>
                 <Col xl={12}>
                     <ReadAdviceAndIdeas/>
