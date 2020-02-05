@@ -33,7 +33,7 @@ function TopNavigation () {
                             <Row>
                                 <Col sm={3}>
                                     <ul>
-                                        <li>Photographer's</li>
+                                        <li>Photographers</li>
                                         <li><NavDropdown.Item href="#">Photographers</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="#">Cinema / Video</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="#">Pre-Wedding Shoot</NavDropdown.Item></li>
@@ -168,7 +168,7 @@ function TopNavigation () {
                         </Col>
                     </Row>
                 </NavDropdown>
-                <NavDropdown title="REAL WEDDINGS" id="basic-wedding-nav-dropdown" className="wedding-item">
+                <NavDropdown title="REAL WEDDINGS" id="basic-wedding-nav-dropdown" className="wedding-item" href="/real-wedding">
                     <Row className="wedding-content">
                         <Col sm={12}>
                             <Row>

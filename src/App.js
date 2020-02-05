@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Routes from './route';
 import NotFound from './not-found';
 import VenuBookingService from './components/venuebookingservice';
+import RealWedding from './components/realWedding';
 import TopNavigation from './components/layout/header.jsx';
 import Home from './components/Home/index.jsx'; 
 import Footer from './components/layout/footer.jsx';
@@ -17,46 +18,16 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './components/css/main.css';
 import { render } from '@testing-library/react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// function App() {
-//   return (
-
-        /* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */
-//       <React.Fragment>
-//         <div id="header" className="App">
-//           <Router>
-//             <TopNavigation/>
-//             <Routes/>
-//           </Router>
-//         </div>
-//         <Home/>
-//         <div id="footer" class="container-fluid bg-dark-purple">
-//           <Footer/>
-//         </div>          
-//        </React.Fragment>
-//   );
-// }
-
 function App () {
-  
     return(
       <Router>
         <div id="header" className="App">
           <TopNavigation/>
        </div>
       <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/home" path="/" component={Home} />
           <Route  path="/venue-booking-service" component={VenuBookingService} />
+          <Route  path="/real-wedding" component={RealWedding} />
           <Route exact path="/home" component={Home} />
           <Route component={NotFound} />
           <redirected to="/not-found"/>

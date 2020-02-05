@@ -148,7 +148,7 @@ function HomeSection (){
                                     From Across Cultures & Cities!</p>
                             </Col>
                             <Col sm={12} className="">
-                               <a href="#" className="mt-4 btn">See Wedding</a>
+                               <a href="/real-wedding" target="_blank" className="mt-4 btn">See Wedding</a>
                             </Col>
                         </Row>
                     </div>
@@ -203,7 +203,7 @@ function HomeSection (){
                                         From Across Cultures & Cities!</p>
                                 </Col>
                                 <Col sm={12} className="">
-                                <a href="#" className="mt-4 btn">See Wedding</a>
+                                <a href="/real-wedding" className="mt-4 btn">See Wedding</a>
                                 </Col>
                             </Row>
                         </Col>
