@@ -759,3 +759,70 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     background-color: #e2c0cd;
     color: white;
 }
+/*Vendors*/
+.vendors .row.post-wrap {
+    border: 4px solid #e2c0cd;
+}
+.vendors .row.post-wrap img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 410px;
+}
+.vendors .row.post-wrap .col-lg-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}    
+.post-wrap.row h3 {
+    color: #571845;
+    line-height: 26px;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.4 !important;
+}
+.post-wrap.row h4 {
+    font-size: 17px;
+    font-family: 'Montserrat', serif;
+    color: #C68DA2;
+}
+.post-wrap.row p {
+    line-height: 24px;
+    font-size: 18px;
+    color: #571845;
+}
+.review-star-vendors {
+    color:white;
+    background: #571845;
+    width: 74px;
+    text-align: center;
+    height: 54px;
+    border-radius: 7px;    
+}
+.review-star-vendors .number {
+    font-size: 28px;
+    vertical-align: sub;    
+}
+
+.font-28 {
+    font-size: 28px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.dashed-border-top {
+    border-top: 2px dashed #C68DA2;
+}
+.dashed-border-top .per-plate {
+    color: #C68DA2;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.read-more {
+    color: #900c3e;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.read-more:hover {
+    color: #C68DA2;
+}
