@@ -25,7 +25,7 @@ function Vendors () {
                                 <Col sm={12} md={6} lg={6} lg={12}>
                                     <Row className="border-2 post-wrap mb-4">
                                         <Col lg={5}>
-                                            <Image src='/img/Photo.png' className="img-fluid"/>
+                                            <Image src='/img/photo.png' className="img-fluid"/>
                                         </Col>
                                         <Col lg={7} className="pt-4 px-4">
                                             <Row>
@@ -66,7 +66,7 @@ function Vendors () {
                                 <Col sm={12} md={6} lg={6} lg={12}>
                                     <Row className="border-2 post-wrap mb-4">
                                         <Col lg={5}>
-                                            <Image src='/img/Photo.png' className="img-fluid"/>
+                                            <Image src='/img/photo.png' className="img-fluid"/>
                                         </Col>
                                         <Col lg={7} className="pt-4 px-4">
                                             <Row>
@@ -107,7 +107,7 @@ function Vendors () {
                                 <Col sm={12} md={6} lg={6} lg={12}>
                                     <Row className="border-2 post-wrap mb-4">
                                         <Col lg={5}>
-                                            <Image src='/img/Photo.png' className="img-fluid"/>
+                                            <Image src='/img/photo.png' className="img-fluid"/>
                                         </Col>
                                         <Col lg={7} className="pt-4 px-4">
                                             <Row>
