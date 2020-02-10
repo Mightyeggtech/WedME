@@ -2,6 +2,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
+.pos-relative {
+    position: relative;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.6rem !important;
@@ -825,4 +828,41 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 .read-more:hover {
     color: #C68DA2;
+}
+.vendors .input-group-text {
+    background-color: white;
+    border: 0px;
+    font-family: 'Cormorant', serif;
+    font-size: 17px;
+    color: #571845;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.filter h3::before, .filter h4::before {
+    content: '';
+    background-color: #e2c0cd;
+    width: 70px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 4px;
+}
+.button-textbox {
+    border-color: #e2c0cd !important;
+    border-right-color: rgb(226, 192, 205) !important;
+    height: 48px !important;
+    border-radius: 0px !important;
+    border-width: 2px !important;
+    border-right-width: 2px !important;
+    border-right: 0px !important;
+    font-family: 'Cormorant', serif;
+}
+.button-search.input-group-append button {
+    border-left: 0;
+    border-left-width: 0px;
+    border-radius: 0px;
+    border-color: #e2c0cd;
+    border-width: 2px;
+    font-size: 20px;
+    color: #e2c0cd;
 }
