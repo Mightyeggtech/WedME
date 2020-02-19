@@ -6,6 +6,7 @@ import NotFound from './not-found';
 import VenuBookingService from './components/venuebookingservice';
 import RealWedding from './components/realWedding';
 import Vendors from './components/allVendors';
+import SingleVendor from './components/vendor-single';
 import TopNavigation from './components/layout/header.jsx';
 import Home from './components/Home/index.jsx'; 
 import Footer from './components/layout/footer.jsx';
@@ -30,6 +31,7 @@ function App () {
           <Route  path="/venue-booking-service" component={VenuBookingService} />
           <Route  path="/real-wedding" component={RealWedding} />
           <Route  path="/vendors" component={Vendors} />
+          <Route  path="/single-vendor" component={SingleVendor} />
           <Route exact path="/home" component={Home} />
           <Route component={NotFound} />
           <redirected to="/not-found"/>

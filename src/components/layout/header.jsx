@@ -14,16 +14,17 @@ import { FaUserCircle } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
 import Home from '../Home/index';
 import logo from './logome.png';
-import {
-    BrowserRouter as Router,
-    Link,
-    Route
-  } from 'react-router-dom'
+import { Link } from 'react-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route
+//   } from 'react-router-dom'
 function TopNavigation () {
         return (
             <div>
             <Navbar className="nav-height" expand="lg">
-            <Navbar.Brand Link to='/'><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></Navbar.Brand>
+            <Navbar.Brand><a href="/"><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></a></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto custom-navbar">

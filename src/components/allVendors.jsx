@@ -12,6 +12,7 @@ import { FiMapPin } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import ReadAdviceAndIdeas from './readAdviceAndIdeas.jsx';
+import RAandI from './RAandI';
 
 function Vendors () {
     return (
@@ -162,9 +163,11 @@ function Vendors () {
                                             <Button variant="outline-secondary"><FiSearch/></Button>
                                             </InputGroup.Append>
                                         </InputGroup>
-                                        <div className="pos-relative"><h3>VENDORS <span></span></h3></div>
+                                        <div className="pos-relative">
+                                            <h3>VENDORS <span></span></h3>
+                                        </div>
                                         <Form.Group controlId="exampleForm.ControlSelect1">
-                                            <Form.Label><div className="pos-relative"><h4>Dance & Music</h4></div></Form.Label>
+                                            <Form.Label><div className="pos-relative pt-2"><h4>Dance & Music</h4></div></Form.Label>
                                             <Form.Control as="select">
                                             <option>1</option>
                                             <option>2</option>
@@ -183,10 +186,10 @@ function Vendors () {
                                             <option>5</option>
                                             </Form.Control>
                                         </Form.Group>
-                                        <div className="pos-relative">
+                                        <div className="pos-relative pt-2">
                                             <h4>Photographers</h4>
                                         </div>
-                                        <div className="pt-2">
+                                        <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Radio  name="group1"/>
@@ -209,7 +212,7 @@ function Vendors () {
                                         <div className="pos-relative">
                                             <h4>Makeup</h4>
                                         </div>
-                                        <div>
+                                        <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Radio  name="group1"/>
@@ -226,7 +229,7 @@ function Vendors () {
                                         <div className="pos-relative">
                                             <h4>Bridal Wear</h4>
                                         </div>
-                                        <div>
+                                        <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Radio  name="group1"/>
@@ -261,7 +264,7 @@ function Vendors () {
                                         <div className="pos-relative">
                                             <h4>Groom Wear</h4>
                                         </div>
-                                        <div>
+                                        <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Radio  name="group1"/>
@@ -284,7 +287,7 @@ function Vendors () {
                                         <div className="pos-relative">
                                             <h4>Planning & Decor</h4>
                                         </div>
-                                        <div>
+                                        <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Radio  name="group2"/>
@@ -297,12 +300,150 @@ function Vendors () {
                                                     <InputGroup.Text >Decor</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>                                              
-                                        </div>                                                                                                                                                                 
+                                        </div>
+                                        <div className="pos-relative">
+                                            <h4>Food</h4>
+                                        </div>                                        
+                                        <div className="pt-2 pb-3">
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Catering Services</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Cake</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Chaat & Food Stalls</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Bartenders</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Text><a href="">View All Food</a></InputGroup.Text>
+                                            </InputGroup>
+                                        </div>
+                                        <div className="pos-relative">
+                                            <h4>Music & Dance</h4>
+                                        </div>    
+                                        <div className="pt-2 pb-3">
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Djs</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Sangeet Choreographer</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Wedding Entertainment </InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                        </div>
+                                        <div className="pos-relative">
+                                            <h4>Jewellery & Accesories</h4>
+                                        </div>  
+                                        <div className="pt-2 pb-3">
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Jewellery</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Flower Jewellery</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup>
+                                            <InputGroup>
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Text>Bridal Jewellery On Rent</InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                            </InputGroup> 
+                                            <InputGroup>
+                                                <InputGroup.Text><a href="">View All Jewellery & Accesories</a></InputGroup.Text>
+                                            </InputGroup>                          
+                                        </div>
+                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                            <Form.Label>
+                                                <div className="pos-relative">
+                                                    <h4>Venues</h4>
+                                                </div>
+                                            </Form.Label>
+                                            <Form.Control as="select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </Form.Control>
+                                        </Form.Group>
+                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                            <Form.Label>
+                                                <div className="pos-relative">
+                                                    <h4>Venues Type</h4>
+                                                </div>
+                                            </Form.Label>
+                                            <Form.Control as="select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </Form.Control>
+                                        </Form.Group> 
+                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                            <Form.Label>
+                                                <div className="pos-relative">
+                                                    <h4>No. of Guests</h4>
+                                                </div>
+                                            </Form.Label>
+                                            <Form.Control as="select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </Form.Control>
+                                        </Form.Group>
+                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                            <Form.Label>
+                                                <div className="pos-relative">
+                                                    <h4>Budget</h4>
+                                                </div>
+                                            </Form.Label>
+                                            <Form.Control as="select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </Form.Control>
+                                        </Form.Group>                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
                                     </Form>
                                </div>
                            </div>
                         </Col>                        
                     </Row>
+                    <RAandI/>
                     <Row className="VOVBS paT-80 paB-80">
                         <Col lg={12}>
                             <Row className="pb-5">
@@ -344,7 +485,8 @@ function Vendors () {
                                 </Card.Body>
                             </Card>
                         </Col>                     
-                    </Row> 
+                    </Row>
+                    
                 </section>
 
             </div>

@@ -26,8 +26,8 @@ h3 {
     font-family: 'Cormorant', serif;
 }
 /* header part */
-.navbar-brand {
-   /* visibility: hidden; */
+.text-lightpink {
+    color: #e2c0cd;
 }
 .text-purple {
     color: #571845;
@@ -845,7 +845,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     position: absolute;
     bottom: -8px;
     left: 0;
-    height: 4px;
+    height: 5px;
 }
 .button-textbox {
     border-color: #e2c0cd !important;
@@ -865,4 +865,151 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     border-width: 2px;
     font-size: 20px;
     color: #e2c0cd;
+}
+
+label {
+    padding-bottom: 12px;
+    padding-top: 6px;
+}
+.filter select {
+    border-radius: 0px;
+    height: 44px;
+    border: 1px solid #e2c0cd;
+}
+.filter select:focus {
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #571845 !important;
+}
+.single-page-title {
+    color: white;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 8px rgba(0,0,0,16%);
+}
+.bg-dark-pink {
+    background-color: #c0869c;
+}
+ul.single-vendor-grid {
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul.single-vendor-grid li {
+    list-style: none;
+    width: 20%;
+    padding: 5px;
+}
+ul.single-vendor-grid img {
+    box-shadow: 0px 3px 6px rgba(0,0,0,16%);
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+#singleVendorGrid .nav-item.nav-link {
+    width: 33.3333%;
+    text-align: center;
+}
+#singleVendorGrid .nav-tabs .nav-link {
+    font-family: 'Montserrat', serif;
+    color: white;
+    border-bottom: 2px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#singleVendorGrid .nav-tabs .nav-link.active {
+    background-color: transparent;
+    color: #900C3E;
+    border-bottom: 2px solid #900C3E;
+}
+.shadowed  {
+    box-shadow: 1px -1px 12px rgba(0,0,0,16%);
+}
+.single-details a  {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.single-details a:hover {
+    color: White;
+}
+.single-vendor-features svg {
+    height: 55px;
+    width: 55px;
+    color: #e2c0cd;
+}
+.single-vendor-features h3 {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    text-shadow: 0px 3px 6px rgba(0,0,0,16%);
+    color: #571845;
+}
+.single-vendor-features .card {
+    border: 0px;
+}
+.starRating svg {
+    color: #e2c0cd;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+.review-section input.form-control , .review-section textarea.form-control {
+    border: 1px solid #571845;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.review-section input.form-control::placeholder , .review-section textarea.form-control::placeholder {
+    font-family: 'Cormorant', serif;
+    color: #571845;
+}
+.socialIconForShare .custom-control-label {
+    padding: 0px;
+}
+.socialIconForShare svg {
+    font-size: 25px;
+    color: #571845;
+}
+.single-PDPE h4 {
+    color:#571845;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.single-PDPE .card-title {
+    color: #571845;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 20px;
+    border-bottom: 1px solid #571845;
+}
+.single-PDPE.card , .single-BSV.card{
+    border-radius: 0px;
+    box-shadow: -1px -1px 25px rgba(0,0,0,16%);
+}
+.single-BSV-title {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 20px;
+    text-align: center;
+}
+.single-BSV-post {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.single-BSV-btn {
+    padding: 15px 0px !important;
+    background-color: #571845 !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    width: 100%;
 }
