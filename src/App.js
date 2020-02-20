@@ -11,6 +11,8 @@ import TopNavigation from './components/layout/header.jsx';
 import Home from './components/Home/index.jsx'; 
 import Footer from './components/layout/footer.jsx';
 import BottomFooter from './components/layout/bottom-footer.jsx';
+import Review from './components/review';
+import SingleRealWedding from './components/singleRealWedding.jsx';
 // import VenuBookingService from './components/venuebookingservice.jsx';
 
 import 'jquery/dist/jquery.min.js';
@@ -32,6 +34,8 @@ function App () {
           <Route  path="/real-wedding" component={RealWedding} />
           <Route  path="/vendors" component={Vendors} />
           <Route  path="/single-vendor" component={SingleVendor} />
+          <Route  path="/review" component={Review} />
+          <Route  path="/single-real-wedding" component={SingleRealWedding} />
           <Route exact path="/home" component={Home} />
           <Route component={NotFound} />
           <redirected to="/not-found"/>

@@ -27,7 +27,40 @@ function TopNavigation () {
             <Navbar.Brand><a href="/"><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></a></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mx-auto custom-navbar">
+              <Nav className="mx-auto custom-navbar">
+              <NavDropdown title="VENUES" id="basic-wedding-nav-dropdown" className="wedding-item" href="/real-wedding">
+                    <Row className="wedding-content">
+                        <Col sm={12}>
+                            <Row>
+                                <Col sm={4}>
+                                    <ul>
+                                        <li>By City</li>
+                                        <li><NavDropdown.Item href="#">Dhaka</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">Commila</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">Others</NavDropdown.Item></li>
+                                    </ul>
+                                </Col>
+                                <Col sm={4}>
+                                    <ul>
+                                        <li>By Type</li>
+                                        <li><NavDropdown.Item href="#">Resort</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">5 Star and other hotels</NavDropdown.Item></li>
+                                    </ul>
+                                </Col> 
+                                <Col sm={4}>
+                                    <ul>
+                                        <li>By Theme</li>
+                                        <li><NavDropdown.Item href="#">Destination</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">Grand & Luxurious</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">Mordern & Stylish</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">International</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                    </ul>
+                                </Col>                                                               
+                            </Row>
+                        </Col>
+                    </Row>
+                </NavDropdown>                      
                 <NavDropdown title="VENDORS" id="basic-vendors-nav-dropdown p-3" className="vendors-item">
                     <Row className="vendors-content">
                         <Col sm={12}> 
@@ -201,7 +234,7 @@ function TopNavigation () {
                             </Row>
                         </Col>
                     </Row>
-                </NavDropdown>  
+                </NavDropdown>                
                 <NavDropdown title="BLOGS" id="basic-blogs-nav-dropdown" className="blogs-item">
                     <Row className="blogs-content">
                         <Col sm={12}>

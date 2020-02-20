@@ -143,11 +143,11 @@ function SingleVendor () {
                                             <Col sm={7}><h4 className="single-BSV-title text-purple">Browse Similar Vendors</h4></Col>
                                             <Col sm={5}><h4 className="single-BSV-title text-lightpink">View All</h4></Col>
                                         </Row>
-                                        <Row>
-                                            <Col sm={4}>
-                                                <Image src="img/hero-single-vendor.png" className="img-fluid"/>
+                                        <Row className="my-3 mx-1 shadowed">
+                                            <Col sm={4} className="p-0">
+                                                <Image src="img/hero-single-vendor.png" className="img-fluid h-100"/>
                                             </Col>
-                                            <Col sm={8}>
+                                            <Col sm={8} className="p-3">
                                                 <Row>
                                                     <Col sm={6}>
                                                         <h4 className="single-BSV-post text-purple">Radisson Blu Resort</h4>
@@ -155,7 +155,7 @@ function SingleVendor () {
                                                     </Col>
                                                     <Col sm={6}>
                                                         <Row>
-                                                            <Col xs={12}><div className="review-star-vendors mx-auto"><span className="font-28 pr-1"><FaStar/></span><span className="number">5</span></div></Col>
+                                                            <Col xs={12}><div className="review-card-star-vendors mx-auto"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></Col>
                                                             <Col xs={12}><div className="text-center single-BSV-post text-purple">34 reviews</div></Col>
                                                         </Row>
                                                     </Col>
@@ -164,20 +164,20 @@ function SingleVendor () {
                                                     <Col sm={12} className="single-BSV-post text-purple">20,000 BTD (per plate)</Col>
                                                 </Row>
                                             </Col>                                            
-                                        </Row>
-                                        <Row>
-                                            <Col sm={4}>
-                                                <Image src="img/hero-single-vendor.png" className="img-fluid"/>
+                                        </Row>   
+                                        <Row className="my-3 mx-1 shadowed">
+                                            <Col sm={4} className="p-0">
+                                                <Image src="img/hero-single-vendor.png" className="img-fluid h-100"/>
                                             </Col>
-                                            <Col sm={8}>
+                                            <Col sm={8} className="p-3">
                                                 <Row>
                                                     <Col sm={6}>
                                                         <h4 className="single-BSV-post text-purple">Radisson Blu Resort</h4>
-                                                        <h4><a href="#" className="single-BSV-post text-purple"><span className="pr-2"><FiMapPin/></span>Dhaka</a></h4>
+                                                        <h4><a href="" className="single-BSV-post text-purple"><span className="pr-2"><FiMapPin/></span>Dhaka</a></h4>
                                                     </Col>
                                                     <Col sm={6}>
                                                         <Row>
-                                                            <Col xs={12}><div className="review-star-vendors mx-auto"><span className="font-28 pr-1"><FaStar/></span><span className="number">5</span></div></Col>
+                                                            <Col xs={12}><div className="review-card-star-vendors mx-auto"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></Col>
                                                             <Col xs={12}><div className="text-center single-BSV-post text-purple">34 reviews</div></Col>
                                                         </Row>
                                                     </Col>
@@ -186,7 +186,7 @@ function SingleVendor () {
                                                     <Col sm={12} className="single-BSV-post text-purple">20,000 BTD (per plate)</Col>
                                                 </Row>
                                             </Col>                                            
-                                        </Row>                                        
+                                        </Row>                                       
                                         </Card.Body>
                                     </Card>
                                     
@@ -203,7 +203,7 @@ function SingleVendor () {
                                     <h2 className="text-center pb-4 text-purple">About Vendor</h2>
                                     <p className="text-center font-cormorant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus euismod. Et tortor at risus viverra adipiscing. Eu volutpat odio facilisis mauris sit amet. Massa sapien faucibus et molestie ac. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Egestas congue quisque egestas diam in arcu cursus euismod quis. Senectus et netus et malesuada fames ac turpis egestas. Quis auctor elit sed vulputate mi sit amet mauris. Quis blandit turpis cursus in hac habitasse platea dictumst. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Lectus arcu bibendum at varius vel.</p>
                                     <Row className="d-flex justify-content-center pt-4">
-                                        <Button variant="primary" type="submit" className="btn-home col-3">Read More</Button>
+                                        <a href="" type="submit" className="btn-generic col-3 text-center font-white font-cormorant">Read More</a>
                                     </Row>
                                 </Col>
                                 <Col lg={1}></Col>
@@ -277,8 +277,8 @@ function SingleVendor () {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="paB-80 shadowed mx-0 my-5">
-                        <Col xs={12} className="text-purple paT-80"><h2 className="text-center">REVIEWS</h2></Col>
+                    <Row className="paB-80 shadowed mx-0 my-5 px-lg-5">
+                        <Col xs={12} className="text-purple paT-80 pb-5"><h2 className="text-center">REVIEWS</h2></Col>
                         <Col xl={12}>     
                             <Form  className="review-section">
                                 <Form.Row>
@@ -334,25 +334,66 @@ function SingleVendor () {
                                     ))}                                      
                                     </Form.Group>
                                 </Form.Row>
-                                <div className="d-flex justify-content-end">
-                                    <Button variant="primary" type="submit" className="btn-home font-cormorant">
+                                <div className="d-flex justify-content-end paT-80 paB-80">
+                                    <a href="" type="submit" className=" btn-generic col-3 text-center font-white font-cormorant">
                                         Submit
-                                    </Button>
+                                    </a>
                                 </div>
                             </Form>
                         </Col>
                         <Col xl={12}>
-                            <Row>
-                                <Col md={2}><Image/></Col>
-                                <Col md={10}>
+                            <Row className="shadowed review-card my-4 mx-2 px-3  py-5">
+                                <Col lg={2} className="text-center"> <Image src="img/hero-single-vendor.png" className="img-fluid"/></Col>
+                                <Col lg={10}>
                                     <Row>
-                                        <Col></Col>
+                                        <Col sm={5} className="review-info pb-4">
+                                            <h4 className="font-montserrat mb-0 text-purple">Sabiha Jahan</h4>
+                                            <small className="font-montserrat">4 months ago</small>
+                                        </Col>
+                                        <Col sm={7}>
+                                            <ul className=" d-flex justify-content-md-end align-items-center font-montserrat">
+                                                <li className="pr-4 text-purple">Share on:</li>
+                                                <li className="socialIconForShare pr-3"><a href=""><FaFacebookF/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href=""><FaTwitter/></a></li>
+                                                <li><div className="review-card-star-vendors"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></li>
+                                            </ul>
+                                        </Col>
                                     </Row>
                                     <Row>
                                         <Col xs={12}> 
-                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error.<a href="#">Read More</a></p>
+                                            <p className="font-montserrat text-purple">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="#" className="read-more">Read More</a></p>
                                         </Col>
                                     </Row>
+                                </Col>
+                            </Row>  
+                            <Row className="shadowed review-card my-4 mx-2 px-3  py-5">
+                                <Col lg={2} className="text-center"> <Image src="img/hero-single-vendor.png" className="img-fluid"/></Col>
+                                <Col lg={10}>
+                                    <Row>
+                                        <Col sm={5} className="review-info pb-4">
+                                            <h4 className="font-montserrat mb-0 text-purple">Sabiha Jahan</h4>
+                                            <small className="font-montserrat">4 months ago</small>
+                                        </Col>
+                                        <Col sm={7}>
+                                            <ul className=" d-flex justify-content-md-end align-items-center font-montserrat">
+                                                <li className="pr-4 text-purple">Share on:</li>
+                                                <li className="socialIconForShare pr-3"><a href=""><FaFacebookF/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href=""><FaTwitter/></a></li>
+                                                <li><div className="review-card-star-vendors"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></li>
+                                            </ul>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col xs={12}> 
+                                            <p className="font-montserrat text-purple">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="#" className="read-more">Read More</a></p>
+                                        </Col>
+                                    </Row>
+                                </Col>
+                            </Row>                        
+                            <Row>
+                                <Col xs={12}>
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit" class="btn-home font-cormorant btn btn-primary">See More</button></div>
                                 </Col>
                             </Row>
                         </Col>

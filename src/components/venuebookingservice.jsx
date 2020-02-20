@@ -42,7 +42,7 @@ function VenuBookingService () {
             <section className="container-fluid section2" >
               <Row>
                   <Col lg={12} className="mb-5">
-                      <h2 className="home-title text-center text-purple">HOW IT WORKS</h2>
+                      <h2 className="home-title text-center text-purple font-montserrat">HOW IT WORKS</h2>
                   </Col>
                   <Col lg={12} >
                     <Row className="HIW">
@@ -58,25 +58,25 @@ function VenuBookingService () {
                                 <Card>
                                     <div class="text-center HIW-icons"><Image src="/img/open-share-boxed.png"/></div>
                                     <Card.Body className="d-flex justify-content-center">
-                                    <Card.Title>Share requirements</Card.Title>
+                                    <Card.Title className="font-montserrat">Share requirements</Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card>
                                     <div class="text-center HIW-icons"><Image src="/img/feather-phone-call.png"/></div>
                                     <Card.Body className="d-flex justify-content-center">
-                                    <Card.Title>Receive suggestions</Card.Title>
+                                    <Card.Title className="font-montserrat">Receive suggestions</Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card>
                                     <div class="text-center HIW-icons"><Image src="/img/material-place.png"/></div>
                                     <Card.Body className="d-flex justify-content-center">
-                                    <Card.Title>Visit venues</Card.Title>
+                                    <Card.Title className="font-montserrat">Visit venues</Card.Title>
                                     </Card.Body>
                                 </Card>
                                 <Card>
                                     <div class="text-center HIW-icons"><Image src="/img/metro-discout.png"/></div>
                                     <Card.Body className="d-flex justify-content-center">
-                                    <Card.Title>Get upto 30% off</Card.Title>
+                                    <Card.Title className="font-montserrat">Get upto 30% off</Card.Title>
                                     </Card.Body>
                                 </Card>                            
                             </CardColumns>                        

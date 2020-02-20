@@ -182,6 +182,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     border-radius: 0px !important;
     width: 180px;
 }
+
 .font-cormorant {
     font-size: 20px;
 }
@@ -994,6 +995,10 @@ ul.single-vendor-grid img {
     border-radius: 0px;
     box-shadow: -1px -1px 25px rgba(0,0,0,16%);
 }
+.single-BSV img {
+    object-fit: cover;
+    object-position: center;
+}
 .single-BSV-title {
     font-size: 17px;
     font-weight: 600;
@@ -1012,4 +1017,63 @@ ul.single-vendor-grid img {
     border: 0px !important;
     border-radius: 0px !important;
     width: 100%;
+}
+.review-card li {
+    list-style: none;
+    display: inline-block;
+}
+.review-card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.review-card-star-vendors {
+    color: white;
+    background: #571845;
+    width: 60px;
+    text-align: center;
+    height: 32px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+.review-card-star-vendors .number {
+    vertical-align: sub;
+}
+.font-22 {
+    font-size: 18px;
+}
+.review-card-star-vendors img {
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-generic {
+    padding: 15px 0px;
+    background-color: #571845 !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+a.btn-generic  {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .review-card h4 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .review-card .review-info {
+        text-align: center;
+    }
+    .review-card ul {
+        padding-left: 0px;
+        display: flex !important;
+        justify-content: center !important;
+
+    }
 }

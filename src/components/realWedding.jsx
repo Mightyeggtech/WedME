@@ -67,7 +67,7 @@ function RealWedding () {
                         <Row className="py-5">
                             <Col lg ={2} ></Col>
                             <Col lg ={8}>
-                                <h1 className="text-center">OUR . FOREVER . AFTER</h1>
+                                <h1 className="text-center font-montserrat">OUR . FOREVER . AFTER</h1>
                                 <p className="font-cormorant text-center">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                             </Col>
                             <Col lg ={2} ></Col>    
@@ -77,7 +77,7 @@ function RealWedding () {
                                 <Card className="">
                                     <div className="overlay-card">
                                         <div className="overlay-card-inner">
-                                            <h3>Mr X & Mrs Y</h3>
+                                            <h3 className="font-montserrat">Mr X & Mrs Y</h3>
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@ function RealWedding () {
                                 <Card className="">
                                     <div className="overlay-card">
                                         <div className="overlay-card-inner">
-                                            <h3>Mr X & Mrs Y</h3>
+                                            <h3 className="font-montserrat">Mr X & Mrs Y</h3>
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>                                
@@ -107,7 +107,7 @@ function RealWedding () {
                                 <Card className="">
                                     <div className="overlay-card">
                                         <div className="overlay-card-inner">
-                                            <h3>Mr X & Mrs Y</h3>
+                                            <h3 className="font-montserrat">Mr X & Mrs Y</h3>
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>                                  
@@ -122,7 +122,7 @@ function RealWedding () {
                                 <Card className="">
                                     <div className="overlay-card">
                                         <div className="overlay-card-inner">
-                                            <h3>Mr X & Mrs Y</h3>
+                                            <h3 className="font-montserrat">Mr X & Mrs Y</h3>
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>  
@@ -137,7 +137,7 @@ function RealWedding () {
                                 <Card className="">
                                     <div className="overlay-card">
                                         <div className="overlay-card-inner">
-                                            <h3>Mr X & Mrs Y</h3>
+                                            <h3 className="font-montserrat">Mr X & Mrs Y</h3>
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>  
@@ -152,7 +152,7 @@ function RealWedding () {
                                 <Card className="">
                                     <div className="overlay-card">
                                         <div className="overlay-card-inner">
-                                            <h3>Mr X & Mrs Y</h3>
+                                            <h3 className="font-montserrat">Mr X & Mrs Y</h3>
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>  
