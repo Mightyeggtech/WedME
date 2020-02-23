@@ -294,6 +294,8 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 .VOVBS h3 {
     color: #571845;
+    font-size: 22px !important;
+    font-weight: 600 !important;
 }
 .cardIconFix {
     display: flex;
@@ -911,7 +913,6 @@ ul.single-vendor-grid img {
     object-position: center;
 }
 #singleVendorGrid .nav-item.nav-link {
-    width: 33.3333%;
     text-align: center;
 }
 #singleVendorGrid .nav-tabs .nav-link {
@@ -1061,7 +1062,47 @@ ul.single-vendor-grid img {
 a.btn-generic  {
     color: white;
 }
-
+.singleVendor {
+    background: #C58CA1;
+}
+ nav.nav-tabs.singleVendor > a.nav-item.nav-link  {
+    width: 50% !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+.allFunction .nav-tabs > a.nav-item.nav-link ,.about .nav-tabs > a.nav-item.nav-link  {
+    width: 33.333% !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+.single-realwedding-section2 img {
+    width: 250px;
+    object-fit: contain;
+    object-position: center;
+    padding: 15px;
+}
+.single-realwedding-section2-inner {
+    margin-top: -100px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+}
+.single-realwedding-section2-inner p {
+    font-weight: 600;
+    max-width: 250px;
+}
+.tagged-vendor {
+    display: flex;
+    width: 250px;
+}
+.tagged-vendor > .col-tagged-vendor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 248px;
+}
+.col-tagged-vendor svg {
+    font-size: 55px;
+    color: #e2c0cd;
+}
 @media (max-width: 576px) {
     .review-card h4 {
         text-align: center;

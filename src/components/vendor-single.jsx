@@ -61,21 +61,25 @@ function SingleVendor () {
                                     <Row className="bg-lightPink mx-0 " id="singleVendorGrid">
                                         <Col lg={12}>
                                             <Tabs defaultActiveKey="Portfolio" >
-                                                <Tab eventKey="Portfolio" title="Portfolio">
-                                                    <ul className="single-vendor-grid py-3">
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid" /></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                        <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
-                                                    </ul>
-                                                   <Row className="d-flex justify-content-center pb-4">
-                                                        <Button variant="primary" type="submit" className="btn-home col-3">Submit</Button>
-                                                   </Row>
+                                                <Tab eventKey="Portfolio" title="Portfolio"  className="portfolio">
+                                                    <Row className="portfolio">
+                                                        <Col lg={12}>
+                                                            <ul className="single-vendor-grid py-3">
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid" /></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                                <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
+                                                            </ul>
+                                                            <Row className="d-flex justify-content-center pb-4">
+                                                                <Button variant="primary" type="submit" className="btn-home col-3">Submit</Button>
+                                                            </Row>                                                            
+                                                        </Col>
+                                                    </Row>
                                                 </Tab>
                                                 <Tab eventKey="Albums" title="Albums">
                                                     <ul className="single-vendor-grid py-3">

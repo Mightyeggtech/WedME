@@ -16,7 +16,7 @@ function HomeSection (){
                 <Col xl ={2} ></Col>
                 <Col lg={12} xl ={8} className=" align-self-center"> 
                     <div className="custom-items-align ">
-                    <h1 className="home-title">OUR . FOREVER . AFTER</h1>
+                    <h1 className="home-title font-montserrat text-center font-uppercase">OUR . FOREVER . AFTER</h1>
                     <p className="font-cormorant">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                         
                         <Form>
@@ -51,7 +51,7 @@ function HomeSection (){
             <Row className="py-5">
                 <Col lg ={2} ></Col>
                 <Col lg ={8}>
-                    <h1 className="text-center">OUR . FOREVER . AFTER</h1>
+                    <h2 className="text-center font-montserrat text-purple font-uppercase">OUR . FOREVER . AFTER</h2>
                     <p className="font-cormorant text-center">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                 </Col>
                 <Col lg ={2} ></Col>    
@@ -108,7 +108,7 @@ function HomeSection (){
             <Row className="py-5">
                 <Col lg ={2} ></Col>
                 <Col lg ={8}>
-                    <h1 className="text-center">HIRE SERVICES</h1>
+                    <h2 className="text-center font-montserrat text-purple font-uppercase">HIRE SERVICES</h2>
                     <p className="font-cormorant text-center">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                 </Col>
                 <Col lg ={2} ></Col>    
@@ -213,7 +213,7 @@ function HomeSection (){
             <Row className="py-5">
                 <Col lg ={2} ></Col>
                 <Col lg ={8}>
-                    <h1 className="text-center font-uppercase">Read Advice & Ideas</h1>
+                    <h2 className="text-center font-uppercase font-montserrat text-purple">Read Advice & Ideas</h2>
                     <p className="font-cormorant text-center">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                 </Col>
                 <Col lg ={2} ></Col>    
@@ -252,7 +252,7 @@ function HomeSection (){
                     <Row className="pb-5">
                     <Col lg ={2} ></Col>
                     <Col lg ={8}>
-                        <h1 className="text-center text-white font-uppercase">Read Advice & Ideas</h1>
+                        <h1 className="text-center text-white font-uppercase font-montserrat font-uppercase">Read Advice & Ideas</h1>
                         <p className="font-cormorant text-white  text-center">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                     </Col>
                     <Col lg ={2} ></Col>    
