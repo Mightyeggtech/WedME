@@ -162,7 +162,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 
 /*Home page */
 .heroimg {
-    background-image: url(/img/hero.png);
+    background-image: url(/img/hero-home.png);
     height: 70vh;
     background-repeat: no-repeat;
     margin: 0 auto;

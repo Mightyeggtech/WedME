@@ -171,7 +171,7 @@ function HomeSection (){
                         </Row>
                         <Row>
                             <Col lg={12}>
-                                <Image src="/img/hero.png" className="img-fluid  ImageLessHeight py-2"/>
+                                <Image src="/img/hero-home.png" className="img-fluid  ImageLessHeight py-2"/>
                             </Col>
                         </Row>
                         </Col>

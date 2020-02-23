@@ -45,16 +45,16 @@ function Footer () {
                         <Row>
                             <Col sm={12}>
                                 <div className="instagram">
-                                    <div><Image src="/img/hero.png" className="img-fluid"/></div>
-                                    <div><Image src="/img/hero.png" className="img-fluid"/></div>
-                                    <div><Image src="/img/hero.png" className="img-fluid"/></div>
+                                    <div><Image src="/img/hero-home.png" className="img-fluid"/></div>
+                                    <div><Image src="/img/hero-home.png" className="img-fluid"/></div>
+                                    <div><Image src="/img/hero-home.png" className="img-fluid"/></div>
                                 </div>
                             </Col>   
                             <Col sm={12}>
                                 <div className="instagram">
-                                    <div><Image src="/img/hero.png" className="img-fluid"/></div>
-                                    <div><Image src="/img/hero.png" className="img-fluid"/></div>
-                                    <div><Image src="/img/hero.png" className="img-fluid"/></div>
+                                    <div><Image src="/img/hero-home.png" className="img-fluid"/></div>
+                                    <div><Image src="/img/hero-home.png" className="img-fluid"/></div>
+                                    <div><Image src="/img/hero-home.png" className="img-fluid"/></div>
                                 </div>
                             </Col>
                         </Row>

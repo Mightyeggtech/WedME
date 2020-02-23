@@ -208,7 +208,7 @@ function SingleRealWedding () {
                                             <a href="#" className="my-4">Click Here</a>
                                         </div>
                                     </div>
-                                    <div><Image src='/img/hero.png'  className="img-fluid real-wedding-card-1 pb-2"/></div>
+                                    <div><Image src='/img/hero-home.png'  className="img-fluid real-wedding-card-1 pb-2"/></div>
                                     <div className="real-wedding-card-inner">
                                         <div className="w-50"><Image src='/img/indian-woman.png'  className="img-fluid real-wedding-card-2 pr-1"/></div>
                                         <div className="w-50"><Image src="/img/BookingSearvicesImages.png" className="img-fluid real-wedding-card-2 pl-1"/></div>
