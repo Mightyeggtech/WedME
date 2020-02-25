@@ -397,7 +397,7 @@ function SingleVendor () {
                             <Row>
                                 <Col xs={12}>
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit" class="btn-home font-cormorant btn btn-primary">See More</button></div>
+                                        <a href="/review"><button type="submit" class="btn-home font-cormorant btn btn-primary">See More</button></a></div>
                                 </Col>
                             </Row>
                         </Col>

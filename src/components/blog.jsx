@@ -8,7 +8,7 @@ import { Card } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 import { Link } from 'react-router';
 import HomeReadAdviceAndIdeas from './Home/homereadadviceandideas.jsx';
-function RealWedding () {
+function Blog () {
     return (
         <React.Fragment>
             <div className="wrap paB-80">
@@ -22,7 +22,7 @@ function RealWedding () {
                                     <Col xl ={2} ></Col>
                                     <Col lg={12} xl ={8} className="align-self-center"> 
                                         <div className="custom-items-align ">
-                                        <h1 className="home-title">OUR . FOREVER . AFTER</h1>
+                                        <h1 className="home-title">BLOG PAGE</h1>
                                         <p className="font-cormorant">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                                             
                                             <Form>
@@ -173,4 +173,4 @@ function RealWedding () {
         </React.Fragment>
         );
     }
-    export default RealWedding;
+    export default Blog;

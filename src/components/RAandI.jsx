@@ -9,7 +9,7 @@ function RAandI () {
             <Row className="py-5">
                 <Col lg ={2} ></Col>
                 <Col lg ={8}>
-                    <h1 className="text-center font-uppercase">Read Advice & Ideas</h1>
+                    <h1 className="text-center font-uppercase font-montserrat text-purple">Read Advice & Ideas</h1>
                     <p className="font-cormorant text-center">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                 </Col>
                 <Col lg ={2} ></Col>    

@@ -13,6 +13,8 @@ import Footer from './components/layout/footer.jsx';
 import BottomFooter from './components/layout/bottom-footer.jsx';
 import Review from './components/review';
 import SingleRealWedding from './components/singleRealWedding.jsx';
+import Blog from './components/blog.jsx';
+// import BlogSingle from './components/blog-single.jsx';
 // import VenuBookingService from './components/venuebookingservice.jsx';
 
 import 'jquery/dist/jquery.min.js';
@@ -34,6 +36,8 @@ function App () {
           <Route  path="/real-wedding" component={RealWedding} />
           <Route  path="/vendors" component={Vendors} />
           <Route  path="/single-vendor" component={SingleVendor} />
+          <Route  path="/blog" component={Blog} />
+          {/* <Route  path="/blog-single" component={BlogSingle} /> */}
           <Route  path="/review" component={Review} />
           <Route  path="/single-real-wedding" component={SingleRealWedding} />
           <Route exact path="/home" component={Home} />

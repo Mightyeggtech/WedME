@@ -16,7 +16,7 @@ function ReadAdviceAndIdeas() {
             <Col xl={12}>
             <Row className="paT-80">
                 <Col lg ={12}>
-                    <h2 className="font-montserrat text-purple text-center font-uppercase ">Read Advice & Ideas</h2>
+                    <h2 className="font-montserrat text-purple text-center font-uppercase">Read Advice & Ideas</h2>
                     <p className="font-cormorant text-white  text-center mb-5">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
                 </Col>  
             </Row>

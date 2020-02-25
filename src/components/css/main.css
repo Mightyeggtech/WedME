@@ -60,6 +60,9 @@ h3 {
     letter-spacing: 1px;
     background-color: transparent;
 }
+#basic-navbar-nav .custom-navbar .nav-item a.nav-link:focus , .programs-item:focus {
+    outline: 0px;
+} 
 .programs-item {
     background-color: transparent;
     padding-top: 8px;
@@ -808,7 +811,10 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     font-size: 28px;
     vertical-align: sub;    
 }
-
+a.post-single:hover {
+    outline: 0;
+    text-decoration: none;
+}
 .font-28 {
     font-size: 28px;
 }
@@ -840,6 +846,10 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     color: #571845;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+.filter h4 {
+    font-family: 'Montserrat', serif;
+    color: #571845;
 }
 .filter h3::before, .filter h4::before {
     content: '';

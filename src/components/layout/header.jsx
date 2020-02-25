@@ -68,68 +68,68 @@ function TopNavigation () {
                                 <Col sm={3}>
                                     <ul>
                                         <li>Photographers</li>
-                                        <li><NavDropdown.Item href="#">Photographers</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Cinema / Video</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Pre-Wedding Shoot</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Photographers</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Cinema / Video</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Pre-Wedding Shoot</NavDropdown.Item></li>
                                         <li>Makeup</li>
-                                        <li><NavDropdown.Item href="#">Bridal Makeup</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Family Makeup</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Bridal Makeup</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Family Makeup</NavDropdown.Item></li>
                                         <li>Bridal wear</li>
-                                        <li><NavDropdown.Item href="#">Bridal Lehengas</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Silk Sarees</NavDropdown.Item></li>      
-                                        <li><NavDropdown.Item href="#">Cocktail gowns</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Troussear sarees</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">View All Bridal wear</NavDropdown.Item></li>                                             
+                                        <li><NavDropdown.Item href="/vendors">Bridal Lehengas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Silk Sarees</NavDropdown.Item></li>      
+                                        <li><NavDropdown.Item href="/vendors">Cocktail gowns</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Troussear sarees</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">View All Bridal wear</NavDropdown.Item></li>                                             
                                     </ul>
                                 </Col>
                                 <Col sm={3}>
                                     <ul>
                                         <li>Groom Wear</li>
-                                        <li><NavDropdown.Item href="#">Sherwani</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Suits</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">View All Groom Wear</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Sherwani</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Suits</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">View All Groom Wear</NavDropdown.Item></li>
                                         <li>Mehndi</li>
-                                        <li><NavDropdown.Item href="#">Mehendi Artist</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Mehendi Artist</NavDropdown.Item></li>
                                         <li>Planning & Decoretor</li>
-                                        <li><NavDropdown.Item href="#">Wedding planner</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Decoretor</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding planner</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Decoretor</NavDropdown.Item></li>
                                         <li>Planning & Decoretor</li>      
-                                        <li><NavDropdown.Item href="#">Cocktail gowns</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Troussear sarees</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">View All Bridal wear</NavDropdown.Item></li>                                             
+                                        <li><NavDropdown.Item href="/vendors">Cocktail gowns</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Troussear sarees</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">View All Bridal wear</NavDropdown.Item></li>                                             
                                     </ul>
                                 </Col>
                                 <Col sm={3}>
                                     <ul>
                                         <li>Food</li>
-                                        <li><NavDropdown.Item href="#">Catering Services</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Cake</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Chaat & food stall</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bartenders</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">View All Food</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Catering Services</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Cake</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Chaat & food stall</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Bartenders</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">View All Food</NavDropdown.Item></li>
                                         <li>Jewellery & Accesories</li>
-                                        <li><NavDropdown.Item href="#">Jewellery</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Flower Jewellery</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Jewellery on rent</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">View all Jewellery & Accesories</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Jewellery</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Flower Jewellery</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Bridal Jewellery on rent</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">View all Jewellery & Accesories</NavDropdown.Item></li>
                                         <li>Music & Dance</li>
-                                        <li><NavDropdown.Item href="#">Djs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Sangeet Choreagrapher</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Entertainment</NavDropdown.Item></li>                                        
+                                        <li><NavDropdown.Item href="/vendors">Djs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Sangeet Choreagrapher</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Entertainment</NavDropdown.Item></li>                                        
                                     </ul>
                                 </Col>
                                 <Col sm={3}>
                                     <ul>
                                         <li>Wedding Cards</li>
-                                        <li><NavDropdown.Item href="#">Wedding Cards</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Cards</NavDropdown.Item></li>
                                         <li>Invites & Gifts</li>
-                                        <li><NavDropdown.Item href="#">Invitations</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Favors</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Trousseau Package</NavDropdown.Item></li> 
-                                        <li><NavDropdown.Item href="#">Invitation gifts</NavDropdown.Item></li>                                          
-                                        <li><NavDropdown.Item href="#">Wedding Gifts for bride or groom</NavDropdown.Item></li>   
-                                        <li><NavDropdown.Item href="#">Mehendi Favors</NavDropdown.Item></li>   
-                                        <li><NavDropdown.Item href="#">View All Invites & Gifts</NavDropdown.Item></li>  
+                                        <li><NavDropdown.Item href="/vendors">Invitations</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Favors</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Trousseau Package</NavDropdown.Item></li> 
+                                        <li><NavDropdown.Item href="/vendors">Invitation gifts</NavDropdown.Item></li>                                          
+                                        <li><NavDropdown.Item href="/vendors">Wedding Gifts for bride or groom</NavDropdown.Item></li>   
+                                        <li><NavDropdown.Item href="/vendors">Mehendi Favors</NavDropdown.Item></li>   
+                                        <li><NavDropdown.Item href="/vendors">View All Invites & Gifts</NavDropdown.Item></li>  
                                     </ul>
                                 </Col>
                             </Row>
@@ -206,29 +206,22 @@ function TopNavigation () {
                     <Row className="wedding-content">
                         <Col sm={12}>
                             <Row>
-                                <Col sm={4}>
+                                <Col sm={6}>
                                     <ul>
                                         <li>By City</li>
-                                        <li><NavDropdown.Item href="#">Dhaka</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Commila</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Others</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">Dhaka</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">Commila</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">Others</NavDropdown.Item></li>
                                     </ul>
                                 </Col>
-                                <Col sm={4}>
-                                    <ul>
-                                        <li>By Culture</li>
-                                        <li><NavDropdown.Item href="#">Bangali</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
-                                    </ul>
-                                </Col> 
-                                <Col sm={4}>
+                                <Col sm={6}>
                                     <ul>
                                         <li>By Theme</li>
-                                        <li><NavDropdown.Item href="#">Destination</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Grand & Luxurious</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Mordern & Stylish</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">International</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">Destination</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">Grand & Luxurious</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">Mordern & Stylish</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">International</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/real-wedding">More</NavDropdown.Item></li>
                                     </ul>
                                 </Col>                                                               
                             </Row>
@@ -242,32 +235,32 @@ function TopNavigation () {
                                 <Col sm={4}>
                                     <ul>
                                         <li>Browse by Category</li>
-                                        <li><NavDropdown.Item href="#">Bridal Makeup</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Honeymoons</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Songs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Decor Ideas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Bridal Makeup</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Honeymoons</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Wedding Songs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Bridal Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Wedding Decor Ideas</NavDropdown.Item></li>
                                     </ul>                                    
                                 </Col>
                                 <Col sm={4}>
                                     <ul>
                                         <li>Browse by Category</li>
-                                        <li><NavDropdown.Item href="#">Old Dhaka wedding</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Real Brides Reveal</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Buys</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">real Wedding</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Mehendi Ideas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Old Dhaka wedding</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Real Brides Reveal</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Bridal Buys</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">real Wedding</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Mehendi Ideas</NavDropdown.Item></li>
                                     </ul>                                      
                                 </Col>
                                 <Col sm={4}>
                                     <ul>
                                         <li>Browse by Category</li>
-                                        <li><NavDropdown.Item href="#">Wedding Songs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Marriage Dates 2020</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Blouse Designer</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Invitations</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Invitations</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Wedding Songs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Marriage Dates 2020</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Bridal Blouse Designer</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Bridal Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Wedding Invitations</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog">Wedding Invitations</NavDropdown.Item></li>
                                     </ul>                                      
                                 </Col>
                             </Row>
