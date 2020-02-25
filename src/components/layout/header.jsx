@@ -24,7 +24,7 @@ function TopNavigation () {
         return (
             <div>
             <Navbar className="nav-height" expand="lg">
-            <Navbar.Brand><a href="/"><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></a></Navbar.Brand>
+            <Navbar.Brand><a href="#"><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></a></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto custom-navbar">
