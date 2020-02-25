@@ -31,7 +31,7 @@ function App () {
           <TopNavigation/>
        </div>
       <Switch>
-          <Route exact path="/home" path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route  path="/venue-booking-service" component={VenuBookingService} />
           <Route  path="/real-wedding" component={RealWedding} />
           <Route  path="/vendors" component={Vendors} />
