@@ -165,7 +165,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 
 /*Home page */
 .heroimg {
-    background-image: url(/img/hero-home.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/hero-home.png");
     height: 70vh;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -198,22 +198,22 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     background-size: cover;
 }
 .wedding-venues {
-    background-image: url(/img/wedding-venues.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/wedding-venues.png");
 }
 .wedding-photography {
-    background-image: url(/img/weddingPhotography.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/weddingPhotography.png");
 }
 .bridal-makeup {
-    background-image: url(/img/BridalMakeupPhoto.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/BridalMakeupPhoto.png");
 }
 .wedding-decorators {
-    background-image: url(/img/weddingDecorators.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/weddingDecorators.png");
 }
 .bridal-wear {
-    background-image: url(/img/BridalWear.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/BridalWear.png");
 }
 .wedding-cards {
-    background-image: url(/img/WeddingCards.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/WeddingCards.png");
 }
 .vendor a.btn {
     left: 0;
@@ -547,7 +547,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 /* Venue Booking Services  */
 .vbs-heroimg {
-    background-image: url(/img/vbs.jpg);
+    background-image: url("http://www.mightyegg.net/wedme/img/vbs.jpg");
     height: 70vh;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -601,7 +601,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     letter-spacing: 0.6px;
 }
 .vbs-section3 {
-    background-image: url(/img/vbs-section3.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/vbs-section3.png");
     background-size: contain;
     height: 450px;
 }
@@ -696,7 +696,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 /*Real Wedding*/
 .heroimgrealWedding {
-    background-image: url(/img/real-wedding.png);
+    background-image: url("http://www.mightyegg.net/wedme/img/real-wedding.png");
     height: 70vh;
     background-repeat: no-repeat;
     margin: 0 auto;
