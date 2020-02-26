@@ -23,10 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-    // "predeploy": "npm run build",
-    // "deploy": "gh-pages -b master -d build"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,10 +40,17 @@
       "last 1 safari version"
     ]
   },
-  // "homepage": "http://mightyegg.net/wedme/",
   "main": "index.js",
   "devDependencies": {},
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimsumaiya/WedME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mimsumaiya/WedME/issues"
+  },
+  "homepage": "https://github.com/mimsumaiya/WedME#readme",
   "description": ""
 }
