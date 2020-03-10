@@ -159,34 +159,34 @@ function HomeSection (){
                             </Row>
                             <Row>
                                 <Col lg={12} className="pl-0">
-                                    <Image src='/img/BookingSearvicesImages.png'  className="img-fluid  ImageMoreHeight py-2"/>
+                                    <Image src="./img/BookingSearvicesImages.png"  className="img-fluid  ImageMoreHeight py-2"/>
                                 </Col>
                             </Row>
                         </Col>
                         <Col sm={4} lg={4}>
                         <Row>
                             <Col lg={12}>
-                                <Image src="/img/makeover.png"  className="img-fluid  ImageMoreHeight pb-2"/>
+                                <Image src="./img/makeover.png"  className="img-fluid  ImageMoreHeight pb-2"/>
                             </Col>
                         </Row>
                         <Row>
                             <Col lg={12}>
-                                <Image src="/img/hero-home.png" className="img-fluid  ImageLessHeight py-2"/>
+                                <Image src="./img/hero-home.png" className="img-fluid  ImageLessHeight py-2"/>
                             </Col>
                         </Row>
                         </Col>
                         <Col sm={4} lg={4}>
                             <Row>
-                                <Col lg={12} className="pr-0"><Image src="/img/indian-woman.png"  className="img-fluid ImageLessHeight pb-2"/></Col>
+                                <Col lg={12} className="pr-0"><Image src="./img/indian-woman.png"  className="img-fluid ImageLessHeight pb-2"/></Col>
                             </Row>
                             <Row>
-                                <Col lg={12} className="pr-0"><Image src="/img/weddingDecorators.png"  className="img-fluid  ImageMoreHeight py-2"/></Col>
+                                <Col lg={12} className="pr-0"><Image src="./img/weddingDecorators.png"  className="img-fluid  ImageMoreHeight py-2"/></Col>
                             </Row>
                         </Col>
                     </Row>
                     <Row className="hide-on-mb">
                        <Col sm={8} lg={8}  className="pl-0">
-                           <Image src="/img/weddingPhotography.png"  className="img-fluid ImageLessHeight pt-2"/>
+                           <Image src="./img/weddingPhotography.png"  className="img-fluid ImageLessHeight pt-2"/>
                         </Col>
                         <Col  sm={4} lg={4} className="fluid ImageLessHeight">
                         </Col>                       
@@ -261,7 +261,7 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card p-4">
                         <div className="cardIconFix"> 
-                            <Card.Img src="/img/awesome-lightbulb.png"/>
+                            <Card.Img src="./img/awesome-lightbulb.png"/>
                         </div>
                         <Card.Body>
                             <h3 className="text-center">Discover Wedding Ideas</h3>
@@ -271,7 +271,7 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card p-4">
                         <div className="cardIconFix">
-                            <Card.Img src="/img/material-event-note.png"/> 
+                            <Card.Img src="./img/material-event-note.png"/> 
                         </div>
                         <Card.Body>
                             <h3 className="text-center">Book Trusted Vendors</h3>
@@ -281,7 +281,7 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card p-4">
                         <div className="cardIconFix">
-                            <Card.Img src="/img/material-description.png"/>
+                            <Card.Img src="./img/material-description.png"/>
                         </div>
                         <Card.Body>
                             <h3 className="text-center">Always Stay Organised</h3>

@@ -23,17 +23,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'; 
 import './components/css/main.css';
 import { render } from '@testing-library/react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter , Switch, Route } from 'react-router-dom';
 function App () {
     return(
-      <Router>
+      <BrowserRouter basename='/wedme/'>
         <div id="header" className="App">
           <TopNavigation/>
        </div>
       <Switch>
-          <Route exact path="/home" exact path="/" component={Home} />
+          <Route  exact path="/" component={Home} />
           <Route  path="/venue-booking-service" component={VenuBookingService} />
-          <Route  path="/real-wedding" component={RealWedding} />
+          <Route  path="/real-wedding" component={RealWedding} exact />
           <Route  path="/vendors" component={Vendors} />
           <Route  path="/single-vendor" component={SingleVendor} />
           <Route  path="/blog" component={Blog} />
@@ -50,7 +51,7 @@ function App () {
         <div id="bottom-footer" class="container-fluid">
           <BottomFooter/>
         </div>            
-      </Router>
+      </BrowserRouter>
     );
   
 }
