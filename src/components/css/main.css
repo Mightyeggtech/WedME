@@ -1128,3 +1128,98 @@ a.btn-generic  {
 
     }
 }
+
+/* about page */
+#aboutSection {
+    background-image: url("/img/hero-single-vendor.png");
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.grid-items {
+    width: 230px;
+    height: 230px;
+    background: #e2c0cd;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 10px;
+    margin: 10px;
+}
+.grid-items:hover {
+    box-shadow: 0px 1px 15px rgba(0,0,0,0.2);
+    color: #571845;
+    text-shadow: 0px 1px 15px rgba(0,0,0,0.2);
+}
+.main-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid-items > div{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    padding-top: 35px;
+}
+.grid-items > h4 {
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+}
+/*Terms & Conditions */
+#termSection {
+    background-image: url("/img/term.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+.bgDark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+ol.boldHeadlines>li {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px; 
+    padding-bottom: 15px;  
+}
+ol.boldHeadlines>p,ul>li, .class-Cormorant.term-condition p{
+    font-family: 'Cormorant', serif !important;
+    font-size: 20px;
+}
+/*!Terms & Conditions */
+
+/*Privacy*/
+
+#privacySection {
+    background-image: url("/img/privacy1.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+.privacy-sections p {
+    font-family: 'Cormorant', serif !important;
+    font-size: 20px;
+}
+/*!Privacy*/

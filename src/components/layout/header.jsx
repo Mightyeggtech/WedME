@@ -12,7 +12,7 @@ import Routes from '../../route.jsx';
 import { FiSearch } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
-import Home from '../Home/index';
+import Home from '../Home/Index';
 import logo from './logome.png';
 import { Link } from 'react-dom';
 // import {
@@ -24,7 +24,7 @@ function TopNavigation () {
         return (
             <div>
             <Navbar className="nav-height" expand="lg">
-            <Navbar.Brand><a href="#"><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></a></Navbar.Brand>
+            <Navbar.Brand><a href="/"><img src={logo} className="App-logo" alt="logo" style={{height: 80}}/></a></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto custom-navbar">
@@ -35,26 +35,26 @@ function TopNavigation () {
                                 <Col sm={4}>
                                     <ul>
                                         <li>By City</li>
-                                        <li><NavDropdown.Item href="#">Dhaka</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Commila</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Others</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Dhaka</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Commila</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Others</NavDropdown.Item></li>
                                     </ul>
                                 </Col>
                                 <Col sm={4}>
                                     <ul>
                                         <li>By Type</li>
-                                        <li><NavDropdown.Item href="#">Resort</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">5 Star and other hotels</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Resort</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">5 Star and other hotels</NavDropdown.Item></li>
                                     </ul>
                                 </Col> 
                                 <Col sm={4}>
                                     <ul>
                                         <li>By Theme</li>
-                                        <li><NavDropdown.Item href="#">Destination</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Grand & Luxurious</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Mordern & Stylish</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">International</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Destination</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Grand & Luxurious</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Mordern & Stylish</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">International</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                     </ul>
                                 </Col>                                                               
                             </Row>

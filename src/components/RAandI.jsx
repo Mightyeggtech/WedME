@@ -43,7 +43,5 @@ function RAandI () {
                 </Col>
             </Row>
         </React.Fragment>        
-    );
-}
-
+    );}
 export default RAandI;
