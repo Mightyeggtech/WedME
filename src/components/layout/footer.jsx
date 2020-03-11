@@ -23,18 +23,18 @@ function Footer () {
             </Col>
             <Col xl={3}>
                 <ul>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">TERM & CONDITION</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/terms-and-conditions">TERM & CONDITION</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#">PRIVACY POLICY</a></li>  
+                    <li><a href="/privacy">PRIVACY POLICY</a></li>  
                     <li><a href="#">GET THE APP ON MOBILE</a></li>              
                 </ul>
             </Col>
             <Col xl={3}>
                 <ul>
-                    <li><a href="#">Vendors</a></li>
-                    <li><a href="#">WEDDING BLOG</a></li>
-                    <li><a href="#">REAL WEDDING</a></li>
+                    <li><a href="/vendors">Vendors</a></li>
+                    <li><a href="/blog">WEDDING BLOG</a></li>
+                    <li><a href="/real-wedding">REAL WEDDING</a></li>
                     <li><a href="#">WEDDING INSPIRATION GALLERY</a></li>
                 </ul>
             </Col>

@@ -1,29 +1,25 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-// import {Router, Route} from 'react-router';
-import Routes from './route';
+import React from 'react';
 import NotFound from './not-found';
 import VenuBookingService from './components/venuebookingservice';
 import RealWedding from './components/realWedding';
 import Vendors from './components/allVendors';
+import Privacy from './components/Privacy';
 import SingleVendor from './components/vendor-single';
-import TopNavigation from './components/layout/header.jsx';
-import Home from './components/Home/index.jsx'; 
+import TopNavigation from './components/layout/Header.jsx';
+import Home from './components/Home/Index.jsx'; 
 import Footer from './components/layout/footer.jsx';
 import BottomFooter from './components/layout/bottom-footer.jsx';
 import Review from './components/review';
 import SingleRealWedding from './components/singleRealWedding.jsx';
+import Term from './components/Term.jsx';
 import Blog from './components/blog.jsx';
-// import BlogSingle from './components/blog-single.jsx';
-// import VenuBookingService from './components/venuebookingservice.jsx';
-
+import About from './components/About.jsx';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'; 
 import './components/css/main.css';
 import { render } from '@testing-library/react';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { BrowserRouter , Switch, Route } from 'react-router-dom';
 function App () {
     return(
@@ -40,6 +36,9 @@ function App () {
           <Route  path="/blog" component={Blog} />
           {/* <Route  path="/blog-single" component={BlogSingle} /> */}
           <Route  path="/review" component={Review} />
+          <Route  path="/terms-and-conditions" component={Term} />
+          <Route  path="/privacy" component={Privacy} />
+          <Route  path="/about" component={About} />
           <Route  path="/single-real-wedding" component={SingleRealWedding} />
           <Route exact path="/home" component={Home} />
           <Route component={NotFound} />
