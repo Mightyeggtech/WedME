@@ -21,21 +21,19 @@ function About() {
         <React.Fragment>
             <div className="wrap">
                 <section className="container-fluid" > 
-                    {/* Section 1 (Hero Section) */}
-                        <Row className="vbs-heroimg" id="aboutSection">  
-                            <Col className="align-self-center">
-                                <Row>
-                                    <Col xl ={2} ></Col>
-                                    <Col lg={12} xl ={8}> 
-                                        <div className="custom-items-align ">
-                                            <h1 className="home-title font-montserrat">About Us</h1>
-                                        </div>
-                                    </Col>
-                                    <Col xl ={2} ></Col>
-                                </Row>
-                            </Col>
-                        </Row>
-                    {/* Section 1 (Hero Section) End */}  
+                    <Row className="vbs-heroimg" id="aboutSection">  
+                        <Col className="align-self-center">
+                            <Row>
+                                <Col xl ={2} ></Col>
+                                <Col lg={12} xl ={8}> 
+                                    <div className="custom-items-align ">
+                                        <h1 className="home-title font-montserrat">About Us</h1>
+                                    </div>
+                                </Col>
+                                <Col xl ={2} ></Col>
+                            </Row>
+                        </Col>
+                    </Row>
                 </section>
                 <section className="container-fluid">
                     <Row className="pt-5">
