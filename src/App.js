@@ -13,6 +13,8 @@ import Review from './components/review';
 import SingleRealWedding from './components/singleRealWedding.jsx';
 import Term from './components/Term.jsx';
 import Blog from './components/blog.jsx';
+import BlogMain from './components/Blog-main.jsx';
+import BlogSingle from './components/Blog-single.jsx';
 import About from './components/About.jsx';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js';
@@ -34,7 +36,8 @@ function App () {
           <Route  path="/vendors" component={Vendors} />
           <Route  path="/single-vendor" component={SingleVendor} />
           <Route  path="/blog" component={Blog} />
-          {/* <Route  path="/blog-single" component={BlogSingle} /> */}
+          <Route  path="/blog-main" component={BlogMain} />
+          <Route  path="/blog-single" component={BlogSingle} />
           <Route  path="/review" component={Review} />
           <Route  path="/terms-and-conditions" component={Term} />
           <Route  path="/privacy" component={Privacy} />
