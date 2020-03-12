@@ -28,7 +28,7 @@ function TopNavigation () {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto custom-navbar">
-              <NavDropdown title="VENUES" id="basic-wedding-nav-dropdown" className="wedding-item" href="/real-wedding">
+              <NavDropdown title="VENUES" id="basic-wedding-nav-dropdown" className="wedding-item" href="/vendors">
                     <Row className="wedding-content">
                         <Col sm={12}>
                             <Row>

@@ -15,13 +15,13 @@ import { FiMapPin } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 import ReadAdviceAndIdeas from './readAdviceAndIdeas.jsx';
 import ContactUsToGetBestDeal from './contactUsToGetBestDeal.jsx';
-function BlogSingle () {
+function BlogMain () {
     return (
         <React.Fragment>
             <div className="wrap paB-80">
                 <section className="container-fluid">
                     <Row className="paT-80">
-                        <Col md={9}>
+                        <Col lg={9}>
                             <Carousel className="blog-main-hero-carousel">
                                 <Carousel.Item>
                                     <img className="d-block w-100" 
@@ -62,81 +62,84 @@ function BlogSingle () {
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
-                            <Row>
-                                <Col lg={12} className="py-5">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam voluptatum reiciendis, quae placeat itaque nostrum nobis accusamus minima modi velit quos quod laudantium odit! Voluptatibus quidem tenetur temporibus enim.
-                                    </p>
-                                </Col>
-                            </Row>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3}>
+                            <Form className="filter">
+                                <InputGroup className="mb-3">
+                                    <FormControl
+                                    placeholder="Search"
+                                    aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2"
+                                    className="button-textbox"
+                                    />
+                                    <InputGroup.Append className="button-search">
+                                    <Button variant="outline-secondary"><FiSearch/></Button>
+                                    </InputGroup.Append>
+                                </InputGroup>
+
+                                <Form.Group controlId="exampleForm.ControlSelect1">
+                                    <Form.Label>
+                                        <div className="pos-relative pt-2">
+                                            <h4>Catagories</h4>
+                                        </div>
+                                    </Form.Label>
+                                    <Form.Control as="select">
+                                        <option>Wedding Vendors</option>
+                                        <option>Wedding Planner</option>
+                                        <option>Wedding Cards</option>
+                                        <option>Wedding Videography</option>
+                                        <option>Wedding Photographers</option>
+                                        <option>Bridal Makeup</option>
+                                        <option>Family Makeup</option>
+                                        <option>Wedding Jewellery</option>
+                                        <option>Wedding Catering</option>
+                                        <option>Trousseau Packers</option>
+                                        <option>DJ</option>
+                                        <option>Wedding Accessories</option>
+                                        <option>Wedding Favors</option>
+                                        <option>Bartenders</option>
+                                        <option>Wedding Entertainment</option>
+                                        <option>Pre Wedding Photographers</option>
+                                    </Form.Control>
+                                </Form.Group>                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                            </Form>
                             <div className="pos-relative pt-2">
                                 <div className="filter">
                                     <h4>Popular Posts</h4>
                                 </div>
                             </div>
-                            <Row className="recent-posts py-3">
-                                <Col xs={4}>
-                                    <Image src="/img/BridalMakeupPhoto.png" className="img-fluid" />
-                                </Col>
-                                <Col xs={8}>
-                                    <small className="font-cormorant">June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small>
-                                    <h3 className="py-2 text-purple">Approaches To Improve Your Fashion</h3>
-                                </Col>
-                            </Row>
-                            <Row className="recent-posts py-3">
-                                <Col xs={4}>
-                                    <Image src="/img/weddingDecorators.png" className="img-fluid" />
-                                </Col>
-                                <Col xs={8}>
-                                    <small className="font-cormorant">June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small>
-                                    <h3 className="py-2 text-purple">Approaches To Improve Your Fashion</h3>
-                                </Col>
-                            </Row>
-                            <Row className="recent-posts py-3">
-                                <Col xs={4}>
-                                    <Image src="/img/BridalMakeupPhoto.png" className="img-fluid" />
-                                </Col>
-                                <Col xs={8}>
-                                    <small className="font-cormorant">June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small>
-                                    <h3 className="py-2 text-purple">Approaches To Improve Your Fashion</h3>
-                                </Col>
-                            </Row>
-                            <div className="pos-relative pt-2">
-                                <div className="filter">
-                                    <h4>Photos</h4>
-                                </div>
-                            </div>
-                            <Row>
-                                <Col lg={12}>
-                                    <div className="blog-single-photos py-3">
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                        <div><Image src="/img/weddingDecorators.png" className="img-fluid" /></div>
-                                    </div>
-                                </Col>
-                            </Row>                                                                    
+                            <div>
+                                <Row className="recent-posts py-3">
+                                    <Col xs={4}>
+                                        <Image src="/img/BridalMakeupPhoto.png" className="img-fluid" />
+                                    </Col>
+                                    <Col xs={8}>
+                                        <small className="font-cormorant">June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small>
+                                        <h3 className="py-2 text-purple">Approaches To Improve Your Fashion</h3>
+                                    </Col>
+                                </Row>
+                                <Row className="recent-posts py-3">
+                                    <Col xs={4}>
+                                        <Image src="/img/weddingDecorators.png" className="img-fluid" />
+                                    </Col>
+                                    <Col xs={8}>
+                                        <small className="font-cormorant">June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small>
+                                        <h3 className="py-2 text-purple">Approaches To Improve Your Fashion</h3>
+                                    </Col>
+                                </Row>
+                                <Row className="recent-posts py-3">
+                                    <Col xs={4}>
+                                        <Image src="/img/BridalMakeupPhoto.png" className="img-fluid" />
+                                    </Col>
+                                    <Col xs={8}>
+                                        <small className="font-cormorant">June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small>
+                                        <h3 className="py-2 text-purple">Approaches To Improve Your Fashion</h3>
+                                    </Col>
+                                </Row>                                                                
+                            </div>      
                         </Col>
                     </Row>
-
-                    {/* <Row>
+                    <Row>
                         <Col lg={12}>
                             <div className="blog-main-post-grid paB-80">
                                 <div className="blog-main-post-card my-3">
@@ -221,7 +224,7 @@ function BlogSingle () {
                                 </div>                                                                                                                                
                             </div>
                         </Col>
-                    </Row> */}
+                    </Row>
                     <Row className="VOVBS paT-80 paB-80 mx-0">
                         <Col lg={12}>
                             <Row className="pb-5">
@@ -273,4 +276,4 @@ function BlogSingle () {
         </React.Fragment>
         );
     }
-    export default BlogSingle;
+    export default BlogMain;
