@@ -5,7 +5,6 @@ import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
-import { Link } from 'react-router';
 
 function HomeSection (){
     return (
@@ -59,49 +58,49 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-venues">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Venues</a>
+                            <a href="/vendors" class="btn">Wedding Venues</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-photography">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Photography</a>
+                            <a href="/vendors" class="btn">Wedding Photography</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card bridal-makeup">
                         <Card.Body>
-                            <a href="" class="btn">Bridal Makeup</a>
+                            <a href="/vendors" class="btn">Bridal Makeup</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-decorators">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Decorators</a>
+                            <a href="/vendors" class="btn">Wedding Decorators</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card bridal-wear">
                         <Card.Body>
-                            <a href="" class="btn">Bridal Wear</a>
+                            <a href="/vendors" class="btn">Bridal Wear</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-cards">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Cards</a>
+                            <a href="/vendors" class="btn">Wedding Cards</a>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row> 
             <Row>
                 <Col lg ={12} className="d-flex justify-content-center">
-                    <a href="#" className="btn browseAllVendors my-3">Browse All Categories</a>
+                    <a href="/vendors" className="btn browseAllVendors my-3">Browse All Categories</a>
                 </Col>
             </Row>
             <Row className="py-5">
@@ -123,14 +122,14 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-photography">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Photography</a>
+                            <a href="/vendors" class="btn">Wedding Photography</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card bridal-makeup">
                         <Card.Body>
-                            <a href="" class="btn">Bridal Makeup</a>
+                            <a href="/vendors" class="btn">Bridal Makeup</a>
                         </Card.Body>
                     </Card>
                 </Col>     
@@ -221,28 +220,28 @@ function HomeSection (){
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-venues">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Venues</a>
+                            <a href="/vendors" class="btn">Wedding Venues</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-photography">
                         <Card.Body>
-                            <a href="" className="btn">Wedding Photography</a>
+                            <a href="/vendors" className="btn">Wedding Photography</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card bridal-makeup">
                         <Card.Body>
-                            <a href="" className="btn">Bridal Makeup</a>
+                            <a href="/vendors" className="btn">Bridal Makeup</a>
                         </Card.Body>
                     </Card>
                 </Col>                     
             </Row>
             <Row className="paB-80">
                 <Col lg ={12} className="d-flex justify-content-center">
-                    <a href="#" className="btn browseAllVendors my-3">READ THE BLOG</a>
+                    <a href="/blog-main" className="btn browseAllVendors my-3">READ THE BLOG</a>
                 </Col>
             </Row>
             {/* View Our Venue Booking Service */}

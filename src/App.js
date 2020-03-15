@@ -16,12 +16,12 @@ import Blog from './components/blog.jsx';
 import BlogMain from './components/Blog-main.jsx';
 import BlogSingle from './components/Blog-single.jsx';
 import About from './components/About.jsx';
+import FAQ from './components/FAQ.jsx';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'; 
 import './components/css/main.css';
-import { render } from '@testing-library/react';
 import { BrowserRouter , Switch, Route } from 'react-router-dom';
 function App () {
     return(
@@ -42,6 +42,7 @@ function App () {
           <Route  path="/terms-and-conditions" component={Term} />
           <Route  path="/privacy" component={Privacy} />
           <Route  path="/about" component={About} />
+          <Route  path="/faq" component={FAQ} />
           <Route  path="/single-real-wedding" component={SingleRealWedding} />
           <Route exact path="/home" component={Home} />
           <Route component={NotFound} />

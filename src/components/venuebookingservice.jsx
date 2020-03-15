@@ -9,10 +9,10 @@ import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { FaUserAlt } from "react-icons/fa";
 import NumericInput from 'react-numeric-input';
-import PhoneInput from 'react-phone-number-input'
-import { MdPhoneInTalk } from  "react-icons/md";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import HomeReadAdviceAndIdeas from './Home/homereadadviceandideas.jsx';
+// import PhoneInput from 'react-phone-number-input'
+// import { MdPhoneInTalk } from  "react-icons/md";
+// import { FaMapMarkerAlt } from "react-icons/fa";
+// import HomeReadAdviceAndIdeas from './Home/homereadadviceandideas.jsx';
 import ContactUsToGetBestDeal from './contactUsToGetBestDeal'
 import ReadAdviceAndIdeas from './readAdviceAndIdeas.jsx';
 // import React, { Component } from "react";
