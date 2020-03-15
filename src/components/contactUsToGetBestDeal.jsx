@@ -3,7 +3,6 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
-import { Card } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 
 function  ContactUsToGetBestDeal () {

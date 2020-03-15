@@ -20,7 +20,7 @@ function Privacy () {
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="paT-80">
+                    <Row className="paT-80 paB-80">
                         <Col lg={12} className="privacy-sections">
                             <p>Our management has created this Privacy Statement (Policy) in order to demonstrate our firm commitment to help our users better understand what information we collect about them and what may happen to that information. The terms "We, WedME, Us" refer to WedME.com and the terms "You, Your" refer to a user of WedME.com.</p>
                             <p>In the course of our business of helping our viewers plan their wedding, we collect certain information from you.</p>

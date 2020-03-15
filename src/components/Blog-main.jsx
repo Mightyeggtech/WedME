@@ -1,5 +1,4 @@
 import React from "react";
-import { section } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Carousel } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
@@ -11,8 +10,7 @@ import { InputGroup } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap'; 
 import { FiSearch } from "react-icons/fi"
 import { GoPrimitiveDot } from "react-icons/go";
-import { FiMapPin } from "react-icons/fi";
-import { FaStar } from "react-icons/fa";
+import { IoIosArrowRoundForward } from "react-icons/io";
 import ReadAdviceAndIdeas from './readAdviceAndIdeas.jsx';
 import ContactUsToGetBestDeal from './contactUsToGetBestDeal.jsx';
 function BlogMain () {
@@ -143,84 +141,100 @@ function BlogMain () {
                         <Col lg={12}>
                             <div className="blog-main-post-grid paB-80">
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="blog-main-post-card my-3">
-                                    <Image src="/img/BridalWear.png"/>
-                                    <div className="blog-main-post-card-content px-4">
-                                        <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
-                                        <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
-                                        <div className="font-cormorant">Tagged: <a href="#">BridalWear</a> <GoPrimitiveDot/> <a href="#">Fashionable</a> <GoPrimitiveDot/> <a href="#">Designed</a> <GoPrimitiveDot/> <a href="#">Elegant</a></div>
-                                        <a href="#" className="py-3 d-block">Discover</a>
-                                    </div>
+                                    <a href="/blog-single">
+                                        <Image src="/img/BridalWear.png"/>
+                                        <div className="blog-main-post-card-content px-4">
+                                            <div className="py-3 date-name"><small>June 3, 2019 <GoPrimitiveDot/> Sushmita Roy Chowdhury</small></div>
+                                            <h3 className="text-purple">Approaches To Improve Your Fashion</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quia ab minus aspernatur, sequi praesentium. Neque maxime placeat facilis! Quidem in facere cumque veritatis consectetur eligendi, illum aliquid deleniti repudiandae.</p>
+                                            <div className="font-cormorant">Tagged: <a href="/#">BridalWear</a> <GoPrimitiveDot/> <a href="/#">Fashionable</a> <GoPrimitiveDot/> <a href="/#">Designed</a> <GoPrimitiveDot/> <a href="/#">Elegant</a></div>
+                                            <a href="/blog-single" className="py-3 d-block discover">Discover<span><IoIosArrowRoundForward/></span></a>
+                                        </div>
+                                    </a>
                                 </div>                                                                                                                                
                             </div>
                         </Col>

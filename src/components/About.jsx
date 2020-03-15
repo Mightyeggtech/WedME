@@ -118,7 +118,7 @@ function About() {
                     </Row>
                     <Row>
                         <Col lg ={12} className="d-flex justify-content-center paB-80">
-                            <a href="#" className="btn browseAllVendors my-3">Browse All Blog Posts</a>
+                            <a href="/blog-main" className="btn browseAllVendors my-3">Browse All Blog Posts</a>
                         </Col>
                     </Row>   
                     <Row className="py-5">
@@ -133,49 +133,49 @@ function About() {
                         <Col lg ={6} xl ={4} className="my-2">
                             <Card className="second-section-vendor-card wedding-venues">
                                 <Card.Body>
-                                    <a href="#" class="btn">Wedding Venues</a>
+                                    <a href="/vendors" class="btn">Wedding Venues</a>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg ={6} xl ={4} className="my-2">
                             <Card className="second-section-vendor-card wedding-photography">
                                 <Card.Body>
-                                    <a href="#" class="btn">Wedding Photography</a>
+                                    <a href="/vendors" class="btn">Wedding Photography</a>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg ={6} xl ={4} className="my-2">
                             <Card className="second-section-vendor-card bridal-makeup">
                                 <Card.Body>
-                                    <a href="#" class="btn">Jewellery & Accessories</a>
+                                    <a href="/vendors" class="btn">Jewellery & Accessories</a>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg ={6} xl ={4} className="my-2">
                             <Card className="second-section-vendor-card wedding-decorators">
                                 <Card.Body>
-                                    <a href="#" class="btn">Decorators</a>
+                                    <a href="/vendors" class="btn">Decorators</a>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg ={6} xl ={4} className="my-2">
                             <Card className="second-section-vendor-card bridal-wear">
                                 <Card.Body>
-                                    <a href="#" class="btn">Outfit</a>
+                                    <a href="/vendors" class="btn">Outfit</a>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg ={6} xl ={4} className="my-2">
                             <Card className="second-section-vendor-card wedding-cards">
                                 <Card.Body>
-                                    <a href="#" class="btn">Wedding Cards</a>
+                                    <a href="/vendors" class="btn">Wedding Cards</a>
                                 </Card.Body>
                             </Card>
                         </Col>
                     </Row>
                     <Row>
                         <Col lg ={12} className="d-flex justify-content-center paB-80">
-                            <a href="#" className="btn browseAllVendors my-3">Browse All Categories</a>
+                            <a href="/vendors" className="btn browseAllVendors my-3">Browse All Categories</a>
                         </Col>
                     </Row>
                     <Row className="py-5">

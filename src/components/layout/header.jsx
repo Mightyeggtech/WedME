@@ -1,25 +1,17 @@
-import React, { Component } from "react";
-import { Button, Container } from 'react-bootstrap';
+import React from "react";
+import { Button } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
-import { FormControl } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import '../css/main.css';
-import Routes from '../../route.jsx';
 import { FiSearch } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
-import Home from '../Home/Index';
 import logo from './logome.png';
-import { Link } from 'react-dom';
-// import {
-//     BrowserRouter as Router,
-//     Link,
-//     Route
-//   } from 'react-router-dom'
+
 function TopNavigation () {
         return (
             <div>
@@ -143,59 +135,59 @@ function TopNavigation () {
                                 <Col sm={3}>
                                     <ul>
                                         <li>Outfit</li>
-                                        <li><NavDropdown.Item href="#">Bridal Lehengas</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Sarees</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Engagement / Cocktail Outfits</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">>Mehendi Outfits</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Blouse Designs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Bridal Lehengas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Sarees</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Engagement / Cocktail Outfits</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">>Mehendi Outfits</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Blouse Designs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                         <li>Jewellery & Accessories</li>
-                                        <li><NavDropdown.Item href="#">Bridal Jewellery</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Engagement Rings</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Floral Jewellery</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>   
+                                        <li><NavDropdown.Item href="/vendors">Bridal Jewellery</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Engagement Rings</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Floral Jewellery</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>   
                                     </ul>                                 
                                 </Col>
                                 <Col sm={3}>
                                     <ul>
                                         <li>Mehndi</li>
-                                        <li><NavDropdown.Item href="#">Mehndi Designs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Arabic Mehndi</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Simple Mehndi</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">>Unique Designs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Mehndi Designs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Arabic Mehndi</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Simple Mehndi</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">>Unique Designs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                         <li>Decor & Ideas</li>
-                                        <li><NavDropdown.Item href="#">Wedding Decor</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Entry Ideas</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Groom Entry Ideas</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Games & Entertainment</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Decor</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Bridal Entry Ideas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Groom Entry Ideas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Games & Entertainment</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                     </ul>                                    
                                 </Col>     
                                 <Col sm={3}>
                                     <ul>
                                         <li>Wedding Card Designs</li>
-                                        <li><NavDropdown.Item href="#">Wedding Card Designs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Gifts & Packaging</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Card Designs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Gifts & Packaging</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                         <li>Wedding Photography</li>
-                                        <li><NavDropdown.Item href="#">Pre-Weddng Photography</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Photography</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Pre-Weddng Photography</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Photography</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                         <li>Groom Wear</li>
-                                        <li><NavDropdown.Item href="#">Sherwani</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Wedding Suits</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Sherwani</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Wedding Suits</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                     </ul>                                                                          
                                 </Col>
                                 <Col sm={3}>
                                     <ul>
                                         <li>Bridal Makeup & Hair</li>
-                                        <li><NavDropdown.Item href="#">Bridal Makeup</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Bridal Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Engagement Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">Mehndi Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="#">More</NavDropdown.Item></li>  
+                                        <li><NavDropdown.Item href="/vendors">Bridal Makeup</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Bridal Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Engagement Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Mehndi Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>  
                                     </ul>                                                                    
                                 </Col>                                                                    
                             </Row>
@@ -235,32 +227,32 @@ function TopNavigation () {
                                 <Col sm={4}>
                                     <ul>
                                         <li>Browse by Category</li>
-                                        <li><NavDropdown.Item href="/blog">Bridal Makeup</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Honeymoons</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Wedding Songs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Bridal Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Wedding Decor Ideas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Bridal Makeup</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Honeymoons</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Wedding Songs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Bridal Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Wedding Decor Ideas</NavDropdown.Item></li>
                                     </ul>                                    
                                 </Col>
                                 <Col sm={4}>
                                     <ul>
                                         <li>Browse by Category</li>
-                                        <li><NavDropdown.Item href="/blog">Old Dhaka wedding</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Real Brides Reveal</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Bridal Buys</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">real Wedding</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Mehendi Ideas</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Old Dhaka wedding</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Real Brides Reveal</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Bridal Buys</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">real Wedding</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Mehendi Ideas</NavDropdown.Item></li>
                                     </ul>                                      
                                 </Col>
                                 <Col sm={4}>
                                     <ul>
                                         <li>Browse by Category</li>
-                                        <li><NavDropdown.Item href="/blog">Wedding Songs</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Marriage Dates 2020</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Bridal Blouse Designer</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Bridal Hairstyles</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Wedding Invitations</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/blog">Wedding Invitations</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Wedding Songs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Marriage Dates 2020</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Bridal Blouse Designer</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Bridal Hairstyles</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Wedding Invitations</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/blog-main">Wedding Invitations</NavDropdown.Item></li>
                                     </ul>                                      
                                 </Col>
                             </Row>

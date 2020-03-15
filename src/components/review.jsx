@@ -47,14 +47,14 @@ function Review () {
                                 </Form.Row>
                                 <Form.Row>
                                     <Form.Group as={Col} controlId="formGridCity">
-                                    <Form.Control type="text" placeholder="How much you paid for vendors" />
+                                        <Form.Control type="text" placeholder="How much you paid for vendors" />
                                     </Form.Group>
                                 </Form.Row>
                                 <Form.Row>
                                     <Form.Group as={Col} controlId="formGridCity">
                                         <Form.Control type="file" placeholder="How much you paid for vendors" />
                                     </Form.Group>
-                                    <Form.Group as={Col} controlId="" className="socialIconForShare">
+                                    <Form.Group as={Col} controlId="formGridCity" className="socialIconForShare">
                                     {['checkbox'].map(type => (
                                         <div key={`custom-inline-${type}`} className="mb-3">
                                         <Form.Check
@@ -76,7 +76,7 @@ function Review () {
                                     </Form.Group>
                                 </Form.Row>
                                 <div className="d-flex justify-content-end paT-80 paB-80">
-                                    <a href="" type="submit" className=" btn-generic col-3 text-center font-white font-cormorant">
+                                    <a href="/#" type="submit" className=" btn-generic col-3 text-center font-white font-cormorant">
                                         Submit
                                     </a>
                                 </div>
@@ -94,15 +94,15 @@ function Review () {
                                         <Col sm={7}>
                                             <ul className=" d-flex justify-content-md-end align-items-center font-montserrat">
                                                 <li className="pr-4">Share on:</li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaFacebookF/></a></li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaTwitter/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaFacebookF/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaTwitter/></a></li>
                                                 <li><div className="review-card-star-vendors"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></li>
                                             </ul>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col xs={12}> 
-                                            <p className="font-montserrat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="#" className="read-more">Read More</a></p>
+                                            <p className="font-montserrat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="/#" className="read-more">Read More</a></p>
                                         </Col>
                                     </Row>
                                 </Col>
@@ -118,15 +118,15 @@ function Review () {
                                         <Col sm={7}>
                                             <ul className=" d-flex justify-content-md-end align-items-center font-montserrat">
                                                 <li className="pr-4">Share on:</li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaFacebookF/></a></li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaTwitter/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaFacebookF/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaTwitter/></a></li>
                                                 <li><div className="review-card-star-vendors"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></li>
                                             </ul>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col xs={12}> 
-                                            <p className="font-montserrat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="#" className="read-more">Read More</a></p>
+                                            <p className="font-montserrat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="/#" className="read-more">Read More</a></p>
                                         </Col>
                                     </Row>
                                 </Col>
