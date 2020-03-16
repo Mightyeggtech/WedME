@@ -138,7 +138,7 @@ function TopNavigation () {
                                         <li><NavDropdown.Item href="/vendors">Bridal Lehengas</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">Wedding Sarees</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">Engagement / Cocktail Outfits</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/vendors">>Mehendi Outfits</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Mehendi Outfits</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">Blouse Designs</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                         <li>Jewellery & Accessories</li>
@@ -154,7 +154,7 @@ function TopNavigation () {
                                         <li><NavDropdown.Item href="/vendors">Mehndi Designs</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">Arabic Mehndi</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">Simple Mehndi</NavDropdown.Item></li>
-                                        <li><NavDropdown.Item href="/vendors">>Unique Designs</NavDropdown.Item></li>
+                                        <li><NavDropdown.Item href="/vendors">Unique Designs</NavDropdown.Item></li>
                                         <li><NavDropdown.Item href="/vendors">More</NavDropdown.Item></li>
                                         <li>Decor & Ideas</li>
                                         <li><NavDropdown.Item href="/vendors">Wedding Decor</NavDropdown.Item></li>

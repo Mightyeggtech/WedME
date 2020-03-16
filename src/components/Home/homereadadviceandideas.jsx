@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { section } from 'react-bootstrap';
+import React from "react";
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 

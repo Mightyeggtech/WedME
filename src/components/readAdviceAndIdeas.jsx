@@ -39,10 +39,10 @@ function ReadAdviceAndIdeas() {
                     </Col>
                     <Col xl={12}>
                         <h3 className="text-center text-purple font-montserrat">Contact us to get best deals</h3>
-                        <div className="text-center"><span className="text-purple">Email : </span><a href="/#"  className="text-purple">Vendors@Demo.Com </a>&#124;<a href="/#" className="text-purple"> Vendors@Demo.Com</a></div>
+                        <div className="text-center py-2"><span className="text-purple  font-montserrat">Email : </span><a href="/#"  className="text-purple">Vendors@Demo.Com </a>&#124;<a href="/#" className="text-purple"> Vendors@Demo.Com</a></div>
                     </Col>
                     <Col xl={12} className="">
-                        <div className="text-center"><span>Whatsapp Number : <a href="mailto:#" className="text-purple">+(00)-0000-000-000</a></span></div>
+                        <div className="text-center font-montserrat"><span className="text-purple">Whatsapp Number : <a href="mailto:#" className="text-purple">+(00)-0000-000-000</a></span></div>
                     </Col>                        
                 </Row>
             </Col>

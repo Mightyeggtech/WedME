@@ -18,28 +18,28 @@ function RAandI () {
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-venues">
                         <Card.Body>
-                            <a href="" class="btn">Wedding Venues</a>
+                            <a href="/#" class="btn">Wedding Venues</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card wedding-photography">
                         <Card.Body>
-                            <a href="" className="btn">Wedding Photography</a>
+                            <a href="/#" className="btn">Wedding Photography</a>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg ={6} xl ={4} className="my-2">
                     <Card className="second-section-vendor-card bridal-makeup">
                         <Card.Body>
-                            <a href="" className="btn">Bridal Makeup</a>
+                            <a href="/#" className="btn">Bridal Makeup</a>
                         </Card.Body>
                     </Card>
                 </Col>                     
             </Row>
             <Row className="paB-80">
                 <Col lg ={12} className="d-flex justify-content-center">
-                    <a href="#" className="btn browseAllVendors my-3">READ THE BLOG</a>
+                    <a href="/blog-main" className="btn browseAllVendors my-3">READ THE BLOG</a>
                 </Col>
             </Row>
         </React.Fragment>        
