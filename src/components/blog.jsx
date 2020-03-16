@@ -1,13 +1,12 @@
-import React, { Component } from "react";
-import { section } from 'react-bootstrap';
+import React from "react";
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
-import { Link } from 'react-router';
 import HomeReadAdviceAndIdeas from './Home/homereadadviceandideas.jsx';
+
 function Blog () {
     return (
         <React.Fragment>

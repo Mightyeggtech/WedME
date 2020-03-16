@@ -2,7 +2,6 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import { Col } from 'react-bootstrap';
 import { Tabs } from 'react-bootstrap';
-import { CardGroup } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { Tab } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
@@ -16,10 +15,9 @@ import { FaRegHeart } from "react-icons/fa";
 import { FiShare2 } from "react-icons/fi";
 import { FaUserTie } from "react-icons/fa"; 
 import { Form } from "react-bootstrap";
-import { Checkbox } from "react-bootstrap";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import VenuBookingService from './venuebookingservice.jsx';
+// import VenuBookingService from './venuebookingservice.jsx';
 import ReadAdviceAndIdeas from './readAdviceAndIdeas.jsx';
 function SingleVendor () {
     return (
@@ -39,24 +37,24 @@ function SingleVendor () {
                                     <Row className="mx-0 bg-lightPink p-4 mt-3 ">
                                         <Col lg={7}>
                                             <div><h3 className="single-page-title">Radisson Blu Resort</h3></div>
-                                            <div><h4><a href=""><span className="pr-2"><FiMapPin/></span>Delhi NCR (View on Map)</a></h4></div>
-                                            <div><h4><a href=""><span className="pr-2"><FiPhoneCall/></span>Contact</a></h4></div>
+                                            <div><h4><a href="/#"><span className="pr-2"><FiMapPin/></span>Delhi NCR (View on Map)</a></h4></div>
+                                            <div><h4><a href="/#"><span className="pr-2"><FiPhoneCall/></span>Contact</a></h4></div>
                                         </Col>
                                         <Col lg={5}>
                                             <div className="review-star-vendors mx-auto"><span className="font-28 pr-1"><FaStar/></span><span className="number">5</span></div>
-                                            <div><h4 className="mt-2 text-center"><a href="#">34 reviews</a></h4></div>
-                                            <div><h4 className="text-center"><a href="#"><FaRegHeart/> Shortlist</a></h4></div>
+                                            <div><h4 className="mt-2 text-center"><a href="/#">34 reviews</a></h4></div>
+                                            <div><h4 className="text-center"><a href="/#"><FaRegHeart/> Shortlist</a></h4></div>
                                         </Col>
                                     </Row>
                                     <Row className="mx-0 bg-dark-pink">
-                                        <Col lg={4}  className="text-center py-4"><a href=""><IoMdPhotos/> Photos</a></Col>
-                                        <Col lg={4}  className="text-center py-4"><a href=""><FaPenNib/> Write a Review</a></Col>
-                                        <Col lg={4}  className="text-center py-4"><a href=""><FiShare2/> Share</a></Col>
+                                        <Col lg={4}  className="text-center py-4"><a href="/#"><IoMdPhotos/> Photos</a></Col>
+                                        <Col lg={4}  className="text-center py-4"><a href="/#"><FaPenNib/> Write a Review</a></Col>
+                                        <Col lg={4}  className="text-center py-4"><a href="/#"><FiShare2/> Share</a></Col>
                                     </Row>
                                     <Row className="my-4 mx-0 bg-dark-purple">
-                                        <Col lg={4} className="text-center py-4"><a href=""><IoMdPhotos/> Photos</a></Col>
-                                        <Col lg={4} className="text-center py-4"><a href=""><FaPenNib/> Write a Review</a></Col>
-                                        <Col lg={4} className="text-center py-4"><a href=""><FiShare2/> Share</a></Col>
+                                        <Col lg={4} className="text-center py-4"><a href="/#"><IoMdPhotos/> Photos</a></Col>
+                                        <Col lg={4} className="text-center py-4"><a href="/#"><FaPenNib/> Write a Review</a></Col>
+                                        <Col lg={4} className="text-center py-4"><a href="/#"><FiShare2/> Share</a></Col>
                                     </Row>
                                     <Row className="bg-lightPink mx-0 " id="singleVendorGrid">
                                         <Col lg={12}>
@@ -134,8 +132,8 @@ function SingleVendor () {
                                         </Card.Body>
                                     </Card>
                                     <Row className="my-4">
-                                        <Col sm={6}><a href="#" className="single-BSV-btn btn text-white ">VIEW CONTACT</a></Col>
-                                        <Col sm={6}><a href="#" className="single-BSV-btn btn text-white">SEND MESSAGE</a></Col>
+                                        <Col sm={6}><a href="/#" className="single-BSV-btn btn text-white ">VIEW CONTACT</a></Col>
+                                        <Col sm={6}><a href="/#" className="single-BSV-btn btn text-white">SEND MESSAGE</a></Col>
                                     </Row>                                    
                                 </Col>
                             </Row>
@@ -155,7 +153,7 @@ function SingleVendor () {
                                                 <Row>
                                                     <Col sm={6}>
                                                         <h4 className="single-BSV-post text-purple">Radisson Blu Resort</h4>
-                                                        <h4><a href="" className="single-BSV-post text-purple"><span className="pr-2"><FiMapPin/></span>Dhaka</a></h4>
+                                                        <h4><a href="/#" className="single-BSV-post text-purple"><span className="pr-2"><FiMapPin/></span>Dhaka</a></h4>
                                                     </Col>
                                                     <Col sm={6}>
                                                         <Row>
@@ -177,7 +175,7 @@ function SingleVendor () {
                                                 <Row>
                                                     <Col sm={6}>
                                                         <h4 className="single-BSV-post text-purple">Radisson Blu Resort</h4>
-                                                        <h4><a href="" className="single-BSV-post text-purple"><span className="pr-2"><FiMapPin/></span>Dhaka</a></h4>
+                                                        <h4><a href="/#" className="single-BSV-post text-purple"><span className="pr-2"><FiMapPin/></span>Dhaka</a></h4>
                                                     </Col>
                                                     <Col sm={6}>
                                                         <Row>
@@ -207,7 +205,7 @@ function SingleVendor () {
                                     <h2 className="text-center pb-4 text-purple">About Vendor</h2>
                                     <p className="text-center font-cormorant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus euismod. Et tortor at risus viverra adipiscing. Eu volutpat odio facilisis mauris sit amet. Massa sapien faucibus et molestie ac. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Egestas congue quisque egestas diam in arcu cursus euismod quis. Senectus et netus et malesuada fames ac turpis egestas. Quis auctor elit sed vulputate mi sit amet mauris. Quis blandit turpis cursus in hac habitasse platea dictumst. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Lectus arcu bibendum at varius vel.</p>
                                     <Row className="d-flex justify-content-center pt-4">
-                                        <a href="" type="submit" className="btn-generic col-3 text-center font-white font-cormorant">Read More</a>
+                                        <a href="/#" type="submit" className="btn-generic col-3 text-center font-white font-cormorant">Read More</a>
                                     </Row>
                                 </Col>
                                 <Col lg={1}></Col>
@@ -339,7 +337,7 @@ function SingleVendor () {
                                     </Form.Group>
                                 </Form.Row>
                                 <div className="d-flex justify-content-end paT-80 paB-80">
-                                    <a href="" type="submit" className=" btn-generic col-3 text-center font-white font-cormorant">
+                                    <a href="/#" type="submit" className=" btn-generic col-3 text-center font-white font-cormorant">
                                         Submit
                                     </a>
                                 </div>
@@ -357,15 +355,15 @@ function SingleVendor () {
                                         <Col sm={7}>
                                             <ul className=" d-flex justify-content-md-end align-items-center font-montserrat">
                                                 <li className="pr-4 text-purple">Share on:</li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaFacebookF/></a></li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaTwitter/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaFacebookF/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaTwitter/></a></li>
                                                 <li><div className="review-card-star-vendors"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></li>
                                             </ul>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col xs={12}> 
-                                            <p className="font-montserrat text-purple">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="#" className="read-more">Read More</a></p>
+                                            <p className="font-montserrat text-purple">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="/#" className="read-more">Read More</a></p>
                                         </Col>
                                     </Row>
                                 </Col>
@@ -381,15 +379,15 @@ function SingleVendor () {
                                         <Col sm={7}>
                                             <ul className=" d-flex justify-content-md-end align-items-center font-montserrat">
                                                 <li className="pr-4 text-purple">Share on:</li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaFacebookF/></a></li>
-                                                <li className="socialIconForShare pr-3"><a href=""><FaTwitter/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaFacebookF/></a></li>
+                                                <li className="socialIconForShare pr-3"><a href="/#"><FaTwitter/></a></li>
                                                 <li><div className="review-card-star-vendors"><span className="font-22 pr-2"><FaStar/></span><span className="number">5</span></div></li>
                                             </ul>
                                         </Col>
                                     </Row>
                                     <Row>
                                         <Col xs={12}> 
-                                            <p className="font-montserrat text-purple">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="#" className="read-more">Read More</a></p>
+                                            <p className="font-montserrat text-purple">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, harum! Consectetur cum facilis sint dignissimos enim culpa fugit nemo dolorem. Quos magnam quaerat exercitationem assumenda distinctio optio, at quisquam? Error. <a href="/#" className="read-more">Read More</a></p>
                                         </Col>
                                     </Row>
                                 </Col>

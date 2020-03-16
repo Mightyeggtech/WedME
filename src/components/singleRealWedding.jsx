@@ -1,8 +1,6 @@
-import React, { Component } from "react";
-import { section } from 'react-bootstrap';
+import React from "react";
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 import { Tab } from 'react-bootstrap';
@@ -47,7 +45,7 @@ function SingleRealWedding () {
                                     <Col lg={7}>
                                         <Row className="d-flex align-items-center">
                                             <Col xs={12} className="d-flex justify-content-center">
-                                                <p className="font-cormorant text-center text-purple pt-4">Intimate Wedding In Old Dhaka With The Bride In Ethereal Jewellery... <a href="">Read Blog</a></p>
+                                                <p className="font-cormorant text-center text-purple pt-4">Intimate Wedding In Old Dhaka With The Bride In Ethereal Jewellery... <a href="/#">Read Blog</a></p>
                                             </Col>
                                             <Col xs={12} className="d-flex justify-content-center">
                                                 <a href="#taggedvendors" className="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase ">View Tagged Vendors</a>
@@ -82,7 +80,7 @@ function SingleRealWedding () {
                                                     <li><Card.Img src="/img/photo.png" className="img-fluid"/></li>
                                                 </ul>
                                                 <Row className="d-flex justify-content-center pb-4">
-                                                    <a href="#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
+                                                    <a href="/#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
                                                 </Row>
                                             </Tab>
                                             <Tab eventKey="Wedding" title="Wedding">
@@ -97,7 +95,7 @@ function SingleRealWedding () {
                                                     <li><Card.Img variant="top" src="/img/photo.png" /></li>
                                                 </ul>
                                                 <Row className="d-flex justify-content-center pb-4">
-                                                    <a href="#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
+                                                    <a href="/#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
                                                 </Row>
                                             </Tab>
                                             <Tab eventKey="Mehendi" title="Mehendi">
@@ -112,7 +110,7 @@ function SingleRealWedding () {
                                                     <li><Card.Img variant="top" src="/img/photo.png" /></li>
                                                 </ul>
                                                 <Row className="d-flex justify-content-center  pb-4">
-                                                    <a href="#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
+                                                    <a href="/#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
                                                 </Row>
                                             </Tab>                                                
                                         </Tabs> 
@@ -129,7 +127,7 @@ function SingleRealWedding () {
                                             <li><Card.Img variant="top" src="/img/photo.png" /></li>
                                         </ul>
                                         <Row className="d-flex justify-content-center  pb-4">
-                                            <a href="#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
+                                            <a href="/#" class="btn browseAllVendors my-3 font-montserrat text-purple text-center font-uppercase">View All</a>
                                         </Row>
                                     </Tab>
                                 </Tabs>                                           
@@ -248,7 +246,7 @@ function SingleRealWedding () {
                         </Row> 
                         <Row className="paB-80">
                             <Col lg ={12} className="d-flex justify-content-center">
-                                <a href="#" className="btn browseAllVendors my-3">READ THE BLOG</a>
+                                <a href="/#" className="btn browseAllVendors my-3">READ THE BLOG</a>
                             </Col>
                         </Row>
                          {/* View Our Venue Booking Service */}

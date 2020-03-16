@@ -59,6 +59,7 @@ h3 {
     font-size: 13px;
     letter-spacing: 1px;
     background-color: transparent;
+    font-family: 'Montserrat', serif;
 }
 #basic-navbar-nav .custom-navbar .nav-item a.nav-link:focus , .programs-item:focus {
     outline: 0px;
@@ -79,7 +80,8 @@ h3 {
     padding-right: 15px;
     text-transform: uppercase;
     font-size: 13px;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
+    font-family: 'Montserrat', serif;    
 }
 span.custom-user-circle, span.custom-Search, span.custom-language {
    font-size: 18px;
@@ -94,7 +96,7 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     margin: 5px 2px;
     letter-spacing: 0.6px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 .vendors-content ul , .photos-content ul , .wedding-content ul , .blogs-content ul {
     padding: 0px;
@@ -105,6 +107,10 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
 }
 .vendors-item .dropdown-menu ,  .photos-item .dropdown-menu,  .wedding-item .dropdown-menu , .blogs-item .dropdown-menu  {
     padding: 24px;
+}
+.vendors-content a.dropdown-item:active ,  .photos-content a.dropdown-item:active,  .wedding-content a.dropdown-item:active , .blogs-content a.dropdown-item:active  {
+    background-color: white;
+    color: #900c3e;
 }
 #basic-navbar-nav .dropdown-menu {
     max-height: 60vh;
@@ -311,9 +317,15 @@ span.custom-user-circle, span.custom-Search, span.custom-language {
     color: #571845;
     font-size: 25px;
 }
+.follow-us a:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+    font-size: 25px;
+}
 .follow-us span {
     color: #571845;
-
+    font-family: 'Montserrat', sans-serif !important;
 }
 .GWOUS img {
     max-width: 400px;

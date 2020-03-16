@@ -1,7 +1,6 @@
 import React from "react";
 import { Col } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-import { Radio } from 'react'
 import { FormControl } from 'react-bootstrap';
 import { InputGroup } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
@@ -23,7 +22,7 @@ function Vendors () {
                     <Row className="">
                         <Col xl={9}>
                             <Row>
-                                <Col sm={12} md={6} lg={6} lg={12}>
+                                <Col sm={12} md={6} lg={12}>
                                     <a href="/single-vendor" className="post-single">
                                         <Row className="border-2 post-wrap mb-4">
                                             <Col lg={5}>
@@ -33,7 +32,7 @@ function Vendors () {
                                                 <Row>
                                                     <Col lg={7}>
                                                         <div><h3>Radisson Blu Resort</h3></div>
-                                                        <div><h4><span className="pr-2"><FiMapPin/></span>Delhi NCR (View on Map)</h4></div>
+                                                        <div><h4><span className="pr-2"><FiMapPin/></span>Dhaka (View on Map)</h4></div>
                                                     </Col>
                                                     <Col lg={5}>
                                                         <div className="review-star-vendors mx-auto"><span className="font-28 pr-1"><FaStar/></span><span className="number">5</span></div>
@@ -66,7 +65,7 @@ function Vendors () {
                                         </Row>
                                     </a>
                                 </Col>
-                                <Col sm={12} md={6} lg={6} lg={12}>
+                                <Col sm={12} md={6} lg={12}>
                                    <a href="/single-vendor" className="post-single">
                                         <Row className="border-2 post-wrap mb-4">
                                             <Col lg={5}>
@@ -76,7 +75,7 @@ function Vendors () {
                                                 <Row>
                                                     <Col lg={7}>
                                                         <div><h3>Radisson Blu Resort</h3></div>
-                                                        <div><h4><span className="pr-2"><FiMapPin/></span>Delhi NCR (View on Map)</h4></div>
+                                                        <div><h4><span className="pr-2"><FiMapPin/></span>Dhaka (View on Map)</h4></div>
                                                     </Col>
                                                     <Col lg={5}>
                                                         <div className="review-star-vendors mx-auto"><span className="font-28 pr-1"><FaStar/></span><span className="number">5</span></div>
@@ -109,7 +108,7 @@ function Vendors () {
                                         </Row>
                                     </a>
                                 </Col>
-                                <Col sm={12} md={6} lg={6} lg={12}>
+                                <Col sm={12} md={6} lg={12}>
                                     <a href="/single-vendor" className="post-single">
                                         <Row className="border-2 post-wrap mb-4">
                                             <Col lg={5}>
@@ -119,7 +118,7 @@ function Vendors () {
                                                 <Row>
                                                     <Col lg={7}>
                                                         <div><h3>Radisson Blu Resort</h3></div>
-                                                        <div><h4><span className="pr-2"><FiMapPin/></span>Delhi NCR (View on Map)</h4></div>
+                                                        <div><h4><span className="pr-2"><FiMapPin/></span>Dhaka (View on Map)</h4></div>
                                                     </Col>
                                                     <Col lg={5}>
                                                         <div className="review-star-vendors mx-auto"><span className="font-28 pr-1"><FaStar/></span><span className="number">5</span></div>
@@ -172,7 +171,7 @@ function Vendors () {
                                         <div className="pos-relative">
                                             <h3>VENDORS <span></span></h3>
                                         </div>
-                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                        <Form.Group controlId="exampleForm.ControlSelect2">
                                             <Form.Label><div className="pos-relative pt-2"><h4>Dance & Music</h4></div></Form.Label>
                                             <Form.Control as="select">
                                             <option>1</option>
@@ -182,7 +181,7 @@ function Vendors () {
                                             <option>5</option>
                                             </Form.Control>
                                         </Form.Group>
-                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                        <Form.Group controlId="exampleForm.ControlSelect3">
                                             <Form.Label><div className="pos-relative"><h4>Invites & Gifts</h4></div></Form.Label>
                                             <Form.Control as="select">
                                             <option>1</option>
@@ -221,13 +220,13 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group1"/>
+                                                    <InputGroup.Radio  name="group4"/>
                                                     <InputGroup.Text >Bridal Makeup</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup> 
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group5"/>
                                                     <InputGroup.Text >Family Makeup</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup> 
@@ -238,31 +237,31 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group1"/>
+                                                    <InputGroup.Radio  name="group6"/>
                                                     <InputGroup.Text >Bridal Lehengas</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup> 
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group7"/>
                                                     <InputGroup.Text >Kanjeevaram / Silk Sarees</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup> 
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group3"/>
+                                                    <InputGroup.Radio  name="group8"/>
                                                     <InputGroup.Text >Cocktail Gowns</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group3"/>
+                                                    <InputGroup.Radio  name="group9"/>
                                                     <InputGroup.Text >Trousseau Sarees</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group3"/>
+                                                    <InputGroup.Radio  name="group10"/>
                                                     <InputGroup.Text >View All Bridal Wear</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>                                                                                            
@@ -273,19 +272,19 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group1"/>
+                                                    <InputGroup.Radio  name="group11"/>
                                                     <InputGroup.Text >Sherwani</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup> 
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group12"/>
                                                     <InputGroup.Text >Wedding Suits / Tuxes</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group13"/>
                                                     <InputGroup.Text >View All Groom Wear</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>                                              
@@ -296,13 +295,13 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group14"/>
                                                     <InputGroup.Text >Wedding Planners</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group15"/>
                                                     <InputGroup.Text >Decor</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>                                              
@@ -313,30 +312,30 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group16"/>
                                                     <InputGroup.Text>Catering Services</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group17"/>
                                                     <InputGroup.Text>Cake</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group18"/>
                                                     <InputGroup.Text>Chaat & Food Stalls</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group19"/>
                                                     <InputGroup.Text>Bartenders</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
-                                                <InputGroup.Text><a href="">View All Food</a></InputGroup.Text>
+                                                <InputGroup.Text><a href="/#">View All Food</a></InputGroup.Text>
                                             </InputGroup>
                                         </div>
                                         <div className="pos-relative">
@@ -345,19 +344,19 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group20"/>
                                                     <InputGroup.Text>Djs</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group21"/>
                                                     <InputGroup.Text>Sangeet Choreographer</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group22"/>
                                                     <InputGroup.Text>Wedding Entertainment </InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
@@ -368,27 +367,27 @@ function Vendors () {
                                         <div className="pt-2 pb-3">
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group23"/>
                                                     <InputGroup.Text>Jewellery</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group24"/>
                                                     <InputGroup.Text>Flower Jewellery</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup>
                                             <InputGroup>
                                                 <InputGroup.Prepend>
-                                                    <InputGroup.Radio  name="group2"/>
+                                                    <InputGroup.Radio  name="group25"/>
                                                     <InputGroup.Text>Bridal Jewellery On Rent</InputGroup.Text>
                                                 </InputGroup.Prepend>
                                             </InputGroup> 
                                             <InputGroup>
-                                                <InputGroup.Text><a href="">View All Jewellery & Accesories</a></InputGroup.Text>
+                                                <InputGroup.Text><a href="/#">View All Jewellery & Accesories</a></InputGroup.Text>
                                             </InputGroup>                          
                                         </div>
-                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                        <Form.Group controlId="exampleForm.ControlSelect26">
                                             <Form.Label>
                                                 <div className="pos-relative">
                                                     <h4>Venues</h4>
@@ -402,7 +401,7 @@ function Vendors () {
                                                 <option>5</option>
                                             </Form.Control>
                                         </Form.Group>
-                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                        <Form.Group controlId="exampleForm.ControlSelect27">
                                             <Form.Label>
                                                 <div className="pos-relative">
                                                     <h4>Venues Type</h4>
@@ -416,7 +415,7 @@ function Vendors () {
                                                 <option>5</option>
                                             </Form.Control>
                                         </Form.Group> 
-                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                        <Form.Group controlId="exampleForm.ControlSelect28">
                                             <Form.Label>
                                                 <div className="pos-relative">
                                                     <h4>No. of Guests</h4>
@@ -430,7 +429,7 @@ function Vendors () {
                                                 <option>5</option>
                                             </Form.Control>
                                         </Form.Group>
-                                        <Form.Group controlId="exampleForm.ControlSelect1">
+                                        <Form.Group controlId="exampleForm.ControlSelect29">
                                             <Form.Label>
                                                 <div className="pos-relative">
                                                     <h4>Budget</h4>
